@@ -1,0 +1,12 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #040C18;
+    height: 100vh;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
