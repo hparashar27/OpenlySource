@@ -1,13 +1,20 @@
 import "./App.css"
 import logo from "./assets/Official_openlySource_logo.png"
+import { Navbar,About,UnderConstruction } from "./Components";
+// import from "./Components/Header/About";
+import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-       <img src={logo}/>
-    <h1>  Welcome to OpenlySource ......</h1>
-      <h2>Start your contribution </h2>
+ <Router>
+      <Navbar/>
+      <Route exact path="/about" component={UnderConstruction} />
+      <Route exact path="/Members" component={UnderConstruction} />
+      <Route exact path="/Aim" component={UnderConstruction} />
+</Router>
     </div>
+    
   );
 }
 
