@@ -39,7 +39,7 @@ color: var(--color-text)
 }
 
 .Navbar_list_items{
-margin-left: 3rem;
+margin-left: 1.5rem;
 font-size: 1.3rem;
 cursor: pointer;
 list-style: none;
@@ -53,7 +53,15 @@ a {
   }
 
 .Navbar_list_items:hover{
-    margin-left: 3rem;
+    margin-left: 1rem;
     color: rgb(189, 189, 189);
     
     }
+
+.btn {
+background-color: #81AFDD; 
+color: white; 
+padding: 10px;
+font-size: 16px; 
+cursor: pointer; 
+}
