@@ -27,8 +27,11 @@ const Navbar = () => {
                 <a rel="noopener" href="https://github.com/hparashar27" target='_blank' >GitHub <BsGithub/></a>
                 </li>
                 <li className='Navbar_list_items'>
-                <Link to="/Sign-in">Sign in / Sign up</Link>
-                  </li>                
+                <Link to="/Sign-up"><button class="btn">Sign Up</button></Link>
+                  </li>     
+                <li className='Navbar_list_items'>
+                <Link to="/Log-in"><button class="btn">Log in</button></Link>
+                  </li>            
             </ul>
         </div>
     </div>
