@@ -26,7 +26,9 @@ const Navbar = () => {
                 <li className='Navbar_list_items' >
                 <a rel="noopener" href="https://github.com/hparashar27" target='_blank' >GitHub <BsGithub/></a>
                 </li>
-                
+                <li className='Navbar_list_items'>
+                <Link to="/Sign-in">Sign in / Sign up</Link>
+                  </li>                
             </ul>
         </div>
     </div>

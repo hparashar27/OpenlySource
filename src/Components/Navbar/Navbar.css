@@ -39,7 +39,7 @@ color: var(--color-text)
 }
 
 .Navbar_list_items{
-margin-left: 3rem;
+margin-left: 1.5rem;
 font-size: 1.3rem;
 cursor: pointer;
 list-style: none;

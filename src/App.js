@@ -12,6 +12,7 @@ function App() {
       <Route exact path="/about" component={UnderConstruction} />
       <Route exact path="/Members" component={UnderConstruction} />
       <Route exact path="/Aim" component={UnderConstruction} />
+      <Route exact path="/Sign-in" component={UnderConstruction} />
 </Router>
     </div>
     
