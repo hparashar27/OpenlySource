@@ -24,7 +24,7 @@ const Navbar = () => {
                 <Link to="/Members">Our Members</Link>
                   </li>
                 <li className='Navbar_list_items' >
-                <a rel="noopener" href="https://github.com/hparashar27" target='_blank' >GitHub <BsGithub/></a>
+                <a rel="noopener" href="https://github.com/hparashar27/openlysource" target='_blank' >GitHub <BsGithub/></a>
                 </li>
                 <li className='Navbar_list_items'>
                 <Link to="/Sign-in">Sign in / Sign up</Link>
