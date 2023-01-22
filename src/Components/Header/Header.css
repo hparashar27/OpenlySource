@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 100%; 
+    height: 100vh;
+  }
+
+  .Header{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    /* width: 100%; */
+    /* height: 100vh; */
+  }
+
+
+  video {
+    /* margin-left: 4.4rem; */
+    width: 100%;
+    height: 75%;
+    opacity: 0.3;
+    object-fit: cover;
+  }
+  
+  .content {
+    position:absolute;
+    line-height: 6rem;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .content h2{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: poppins;
+    
+  }
+  .content h4{
+    color: #b1b1b1;
+    font-size: 1.4rem;
+
+  }
+  .content h3{
+    color: aqua;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: poppins;
+
+  }

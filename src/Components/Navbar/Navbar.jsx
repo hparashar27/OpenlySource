@@ -14,24 +14,12 @@ const Navbar = () => {
 </div> 
         <div>
             <ul className='Navbar_list'>
-             <li className='Navbar_list_items'>
-                 <Link to="/about">About us</Link>
-                </li>
-                <li className='Navbar_list_items'>
-                <Link to="/Aim"> Our Aim</Link>
-                   </li>
-                <li className='Navbar_list_items'>
-                <Link to="/Members">Our Members</Link>
-                  </li>
-                <li className='Navbar_list_items' >
-                <a rel="noopener" href="https://github.com/hparashar27/openlysource" target='_blank' >GitHub <BsGithub/></a>
-                </li>
-                <li className='Navbar_list_items'>
-                <Link to="/Sign-up"><button class="btn">Sign Up</button></Link>
-                  </li>     
-                <li className='Navbar_list_items'>
-                <Link to="/Log-in"><button class="btn">Log in</button></Link>
-                  </li>            
+              <li ><Link to="/about">About us</Link></li>
+                <li ><Link to="/Aim"> Our Aim</Link></li>
+                <li><Link target='_blank' to="/Members">Our Members</Link></li>
+                <li><a rel="noreferrer" href="https://github.com/hparashar27/openlysource" target='_blank' >GitHub <BsGithub/></a></li>
+                <li ><Link to="/Sign-up"><button class="btn">Sign Up</button></Link></li>     
+                <li ><Link to="/Log-in"><button class="btn">Log in</button></Link> </li>            
             </ul>
         </div>
     </div>

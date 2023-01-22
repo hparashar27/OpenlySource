@@ -17,7 +17,7 @@ justify-content: space-between
 .logo_des{
 font-family: poppins;
 font-weight: 400 ;
-font-size: 1.5rem;
+font-size: 2rem;
 color: var(--color-text)
 }
 
@@ -27,6 +27,7 @@ color: var(--color-text)
 }
 
 .Navbar_list{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,13 +39,21 @@ color: var(--color-text)
     margin-right: 5rem;
 }
 
-.Navbar_list_items{
-margin-left: 1.5rem;
-font-size: 1.3rem;
-cursor: pointer;
-list-style: none;
-text-decoration: none;
+.Navbar_list li{
+    margin-left: 1.4rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    z-index: 2;
 }
+
+.Navbar_list li:hover{
+    margin-left: 1.4rem;
+    color: rgb(189, 189, 189);
+    
+}
+
 
 a {
     color: inherit;
@@ -52,16 +61,15 @@ a {
     cursor: inherit;
   }
 
-.Navbar_list_items:hover{
-    margin-left: 1rem;
-    color: rgb(189, 189, 189);
-    
-    }
-
-.btn {
+  .btn {
 background-color: #81AFDD; 
 color: white; 
 padding: 10px;
 font-size: 16px; 
-cursor: pointer; 
+cursor: pointer;
+border : solid #81AFDD; 
+border-radius: 5px;
+}
+.btn:hover{
+
 }
