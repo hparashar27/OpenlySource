@@ -30,7 +30,7 @@ Want to be a openlysource community member , take these steps :-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-[![image](../openlysource/src/assets/openlysource_desktop.png)]
+[![image](src/assets/openlysource_desktop.png)]()
 
 ## On What stack will OpenlySource built on?
 
