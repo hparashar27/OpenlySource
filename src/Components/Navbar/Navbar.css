@@ -73,5 +73,8 @@ a {
 
 
 .btn:hover{
-        background-color: #246cb3; 
+        background-color: #246cb3;
+    border : solid #246cb3; 
+    border-radius: 10px;
+
     }
