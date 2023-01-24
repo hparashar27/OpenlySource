@@ -62,14 +62,16 @@ a {
   }
 
   .btn {
-background-color: #81AFDD; 
-color: white; 
-padding: 10px;
-font-size: 16px; 
-cursor: pointer;
-border : solid #81AFDD; 
-border-radius: 5px;
-}
-.btn:hover{
+    background-color: #042c54; 
+    color: white; 
+    padding: 10px;
+    font-size: 16px; 
+    cursor: pointer;
+    border : solid #042c54; 
+    border-radius: 5px;
+      }
 
-}
+
+.btn:hover{
+        background-color: #246cb3; 
+    }
