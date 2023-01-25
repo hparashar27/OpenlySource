@@ -1,4 +1,5 @@
-#Code of Conduct for Our Community
+# Code of Conduct for Our Community
+
 We are a community of people who are passionate about Open Source. As such, we have a few rules to help ensure that everyone feels safe and respected while participating.
 
 1. Be respectful of others. Everyone is here to learn and share their knowledge, so please be kind and considerate of others' opinions.
