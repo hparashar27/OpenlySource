@@ -60,12 +60,8 @@ Main aim of this community is to spread awareness and importance of open source 
 - you can make your open source profile , with your skills and achievements
 - many more features ......
 
-# CONTRIBUTING GUIDELINES
+# CONTRIBUTING GUIDELINES [click here](./CONTRIBUTING.md)
 
-[](./CONTRIBUTING.md)
-
-# CODE OF CONDUCT
-
-[](./CODE_OF_CONDUCT.md)
+# CODE OF CONDUCT [click here](./CODE_OF_CONDUCT.md)
 
 ### Here you go 🚀🚀🚀
