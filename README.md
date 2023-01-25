@@ -62,10 +62,10 @@ Main aim of this community is to spread awareness and importance of open source 
 
 # CONTRIBUTING GUIDELINES
 
-(./CONTRIBUTING.md)
+[](./CONTRIBUTING.md)
 
 # CODE OF CONDUCT
 
-(./CODE_OF_CONDUCT.md)
+[](./CODE_OF_CONDUCT.md)
 
 ### Here you go 🚀🚀🚀
