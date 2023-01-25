@@ -4,12 +4,12 @@ We are excited that you are interested in contributing to our project! Here are 
 
 ## How to Submit a Contribution
 
-First, make sure you have a GitHub account.
-Fork the repository by clicking on the "Fork" button at the top of the repository page.
-Clone the forked repository to your local machine using the following command: git clone https://github.com/<your-username>/<repository-name>.git
-Make your changes and commit them to your forked repository on a new branch.
-Push your changes to your forked repository using the command: git push
-Create a new pull request by going to the original repository and clicking the "Compare and pull request" button.
+1. First, make sure you have a GitHub account.
+1. Fork the repository by clicking on the "Fork" button at the top of the repository page.
+1. Clone the forked repository to your local machine using the following command:`git clone https://github.com/<your-username>/<repository-name>.git`
+1. Make your changes and commit them to your forked repository on a new branch.
+1. Push your changes to your forked repository using the command: git push
+1. Create a new pull request by going to the original repository and clicking the "Compare and pull request" button.
 
 ## Code of Conduct
 
