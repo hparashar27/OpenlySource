@@ -1,19 +1,24 @@
 import './App.css';
-import { Navbar, Header, Footer } from './Components';
+// import { Navbar, Header, Footer } from './Components';
 // import from "./Components/Header/About";
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route ,Switch} from 'react-router-dom';
+import Opportunities from './Components/Opportunities/Opportunities';
+import Home from './Components/Home/Home';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className='App'>
-      <div className='gradient_bg'>
         <Router>
-          <Navbar />
-          <Header />
-          <Footer />
+          <Navbar/>
+          <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>  
+        <Route exact path="/Opportunities">
+        <Opportunities/>
+        </Route>
+          </Switch>
         </Router>
-      </div>
-    </div>
   );
 }
 

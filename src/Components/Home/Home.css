@@ -1,16 +1,3 @@
-.App{
-    /* display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    background-color: #040C18;
-    height: 100%;
-    color: #fff;
-    font-weight: 700;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem; */
-}
-
 *{
     margin:0px;
     padding: 0px;
@@ -22,8 +9,8 @@
     background-color: var(--color-bg);
 }
 
-.gradient_bg
-{
+.Home{
+    
     /* ff 3.6+ */
     background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
 

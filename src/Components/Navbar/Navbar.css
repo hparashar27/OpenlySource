@@ -54,7 +54,26 @@ color: var(--color-text)
     
 }
 
+.gradient_bg
+{
 
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+}
+  
 a {
     color: inherit;
     text-decoration: inherit;

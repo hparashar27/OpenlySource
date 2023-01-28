@@ -1,0 +1,30 @@
+
+body{
+    background-color: #fff;
+}
+
+.Opp_body{
+    background-color: #fff;
+    color: black;
+    height: 100vh;
+}
+
+.Opp_heading{
+padding-top: 1em;
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-size: 3.5rem;
+font-family: JetBrains Mono,monospace;
+/* background-color: #1a73e8; */
+font-weight: 500;
+}
+
+.Opp_cards_list{
+
+
+}
+
+.Opp_card{
+
+}

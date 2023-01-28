@@ -4,26 +4,35 @@ import './Navbar.css';
 import logo from '../../assets//Official_openlySource_logo.png';
 import { Link } from 'react-router-dom';
 
+
+
 const Navbar = () => {
   return (
     <>
+    <div className='gradient_bg'>
       <div className='Navbar'>
         <div className='logo'>
           <img src={logo} alt='OpenlySource' className='logo_img' />
-          <h4 className='logo_des'>OpenlySource</h4>
+        <h4 className='logo_des'>
+          OpenlySource
+            </h4>
         </div>
         <div>
           <ul className='Navbar_list'>
             <li>
-              <Link to='/about'>About us</Link>
+           <Link to="/aboutus"> 
+           About us
+           </Link>
             </li>
             <li>
-              <Link target='_blank' to='/Members'>
+           <Link to="/members"> 
                 Our Members
-              </Link>
+           </Link> 
             </li>
             <li>
-              <Link to='/Opportunities'>Opportunities</Link>
+            <Link to="/opportunities"> 
+            Opportunities
+            </Link>
             </li>
             <li>
               <a
@@ -35,17 +44,18 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <Link to='/Sign-up'>
+            <Link to="/SignUp"> 
                 <button className='btn'>Sign Up</button>
               </Link>
             </li>
             <li>
-              <Link to='/Log-in'>
+            <Link to="/login"> 
                 <button className='btn'>Log in</button>
-              </Link>{' '}
+            </Link>
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </>
   );

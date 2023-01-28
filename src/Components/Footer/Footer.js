@@ -14,8 +14,7 @@ const Footer = () => {
             <span>OpenlySource</span>
           </div>
           <p>
-            Empowering the next generation of open source contributors, one step
-            at a time
+            Empowering the next generation of open source contributors, one step at a time
           </p>
         </div>
         <div className='nav-links'>
