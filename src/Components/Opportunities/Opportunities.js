@@ -20,7 +20,7 @@ const Opportunities = () => {
             <span className="card_right_heading"> Google Summer of Code</span>
             <span className="card_right_description">
               {" "}
-          GSOC 2023 is a unique program in which students work with mentors who introduce them to the Open Source community and guide them in working on open source projects in the real world during their summer break from university. Students will work on a programming project with an open source organization for 10 weeks during their school break.
+              Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors
             </span>
             <div className="card_right_button">
               <button className="visit_button"> <a

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route ,Switch} from 'react-router-dom';
 import Opportunities from './Components/Opportunities/Opportunities';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
+import UnderConstruction from './Components/UnderConstruction/UnderConstruction';
 
 function App() {
   return (
@@ -16,6 +17,12 @@ function App() {
         </Route>  
         <Route exact path="/Opportunities">
         <Opportunities/>
+        </Route>
+        <Route exact path="/Aboutus">
+        <UnderConstruction/>
+        </Route>
+        <Route exact path="/Members">
+        <UnderConstruction/>
         </Route>
           </Switch>
         </Router>
