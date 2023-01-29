@@ -36,7 +36,7 @@ Want to be a openlysource community member , take these steps :-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-To start the backend server:
+## To start the backend server:
 
 1 make sure to have mongodb set up on your system
 
