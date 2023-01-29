@@ -38,6 +38,22 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 [![image](src/assets/openlysource_desktop.png)]()
 
+## To start the backend server:
+
+1 make sure to have mongodb set up on your system
+
+2 in the openlysource-backend directory run command:
+
+### `npm install`
+
+3 run command to seed data:
+
+### md-seed run
+
+4 to start the development server:
+
+### npm run dev
+
 ## On What stack will OpenlySource built on?
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)

@@ -1,0 +1,35 @@
+{
+  "name": "openlysource-backend",
+  "version": "1.0.0",
+  "description": "backend node server for openlysource",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testPathPattern=^.+\\.test\\.js$ __tests__/",
+    "start": "node index.js",
+    "dev": "nodemon --trace-warnings index.js"
+  },
+  "author": "faizan-omer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "celebrate": "^15.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "mongoose": "^6.9.0",
+    "mongoose-data-seed": "^2.1.6",
+    "morgan": "^1.10.0",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  },
+  "mdSeed": {
+    "seedersFolder": "./seeders"
+  }
+}
