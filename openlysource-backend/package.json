@@ -4,7 +4,7 @@
   "description": "backend node server for openlysource",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --testPathPattern=^.+\\.test\\.js$ __tests__/",
     "start": "node index.js",
     "dev": "nodemon --trace-warnings index.js"
   },
@@ -25,7 +25,9 @@
     "winston-daily-rotate-file": "^4.7.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "jest": "^29.4.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
   },
   "mdSeed": {
     "seedersFolder": "./seeders"

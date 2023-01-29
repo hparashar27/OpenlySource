@@ -47,7 +47,7 @@ app.use(express.json());
 
 app.use(morganMiddleware);
 
-app.use(opportunitiesRoutes);
+app.use("/api/opportunities", opportunitiesRoutes);
 app.use(handleErrors);
 
 module.exports = app;
