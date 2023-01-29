@@ -1,5 +1,5 @@
-const eventModel = require("./event");
+const Event = require("./event");
 
 module.exports = {
-  eventModel,
+  Event,
 };

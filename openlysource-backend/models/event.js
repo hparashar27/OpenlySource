@@ -11,8 +11,8 @@ const EventSchema = new mongoose.Schema({
   websiteUrl: {
     type: String,
   },
-  startingMonth: {
-    type: Date,
+  months: {
+    type: String,
   },
   description: {
     type: String,
