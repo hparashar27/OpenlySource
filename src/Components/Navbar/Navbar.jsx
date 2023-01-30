@@ -44,12 +44,12 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-            <Link to="/SignUp"> 
+            <Link to="/Sign-up"> 
                 <button className='btn'>Sign Up</button>
               </Link>
             </li>
             <li>
-            <Link to="/login"> 
+            <Link to="/Log-in"> 
                 <button className='btn'>Log in</button>
             </Link>
             </li>
