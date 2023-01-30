@@ -12,27 +12,25 @@ import Signup from "./Components/Signup/Signup"
 
 function App() {
   return (
-        <Router>
-          <Route exact path="/OpenlySource">
-          <Navbar/>
-        </Route>
-          <Switch>
-        <Route exact path="/">
-          <Home/>
-        </Route>  
-        <Route exact path="/Opportunities">
-        <Opportunities/>
-        </Route>
-        <Route exact path="/Aboutus">
-        <UnderConstruction/>
-        </Route>
-        <Route exact path="/Members">
-        <UnderConstruction/>
-        </Route>
-        <Route exact path="/Log-in" component={Login} />
+    <Router>
+    <Navbar/>
+    <Switch>
+  <Route exact path="/">
+    <Home/>
+  </Route>  
+  <Route exact path="/Opportunities">
+  <Opportunities/>
+  </Route>
+  <Route exact path="/Aboutus">
+  <UnderConstruction/>
+  </Route>
+  <Route exact path="/Members">
+  <UnderConstruction/>
+  </Route>
+    </Switch>
+    <Route exact path="/Log-in" component={Login} />
         <Route exact path="/Sign-up" component={Signup} />
-          </Switch>
-        </Router>
+  </Router>
   );
 }
 

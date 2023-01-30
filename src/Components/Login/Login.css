@@ -4,11 +4,11 @@
 	box-sizing: border-box;
 }
 
-body{
+/* body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
     background-color: #040C18;
-}
+}  */
 
 .wave{
 	position: fixed;
