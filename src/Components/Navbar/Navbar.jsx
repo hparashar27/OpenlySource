@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <div>
             <ul className='Navbar_list'>
-              <li ><Link to="/About">About us</Link></li>
+              <li ><Link to="/Aboutus">About us</Link></li>
                 <li><Link target='_blank' to="/Members">Our Members</Link></li>
                 <li ><Link to="/Opportunities">Opportunities</Link></li>
                 <li><a rel="noreferrer" href="https://github.com/hparashar27/openlysource" target='_blank' >GitHub <BsGithub/></a></li>

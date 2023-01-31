@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar/Navbar';
 import UnderConstruction from './Components/UnderConstruction/UnderConstruction';
 import Login from "./Components/Login/Login";
 import Signup from "./Components/Signup/Signup"
+import About  from './Components/About-us/About';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
   <Opportunities/>
   </Route>
   <Route exact path="/Aboutus">
-  <UnderConstruction/>
+  <About/>
   </Route>
   <Route exact path="/Members">
   <UnderConstruction/>
