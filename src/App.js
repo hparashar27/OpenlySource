@@ -15,7 +15,7 @@ function App() {
     <Router>
     <Navbar/>
     <Switch>
-  <Route exact path="/">
+  <Route exact path="/openlysource">
     <Home/>
   </Route>  
   <Route exact path="/Opportunities">
