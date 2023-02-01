@@ -48,6 +48,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 3 run command to seed data:
 
+### `npm install -g mongoose-data-seed `
 ### `md-seed run`
 
 4 to start the development server:
