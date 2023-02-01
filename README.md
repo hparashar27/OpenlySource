@@ -42,16 +42,23 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 1 make sure to have mongodb set up on your system
 
-2 in the openlysource-backend directory run command:
+2 change directory to openlysource-backend directory run command:
+
+### `cd openlysource-backend`
+
+3 To install all dependencies run command :
 
 ### `npm install`
 
-3 run command to seed data:
+3 to install Mongoose seed data package globally run command:
 
 ### `npm install -g mongoose-data-seed `
+
+4 run command to seed data:
+
 ### `md-seed run`
 
-4 to start the development server:
+5 to start the development server:
 
 ### `npm run dev`
 
