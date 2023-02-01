@@ -48,11 +48,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 3 run command to seed data:
 
-### md-seed run
+### `md-seed run`
 
 4 to start the development server:
 
-### npm run dev
+### `npm run dev`
 
 ## On What stack will OpenlySource built on?
 
