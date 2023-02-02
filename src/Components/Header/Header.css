@@ -28,7 +28,7 @@
     line-height: 6rem;
     width: 100%;
     height: 100%;
-    top: 0;
+    top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,3 +55,42 @@
     font-family: poppins;
 
   }
+
+  
+.slack_logo
+{
+height: 100%;
+width: 50%;
+
+}
+
+.slack_sec{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+margin-top: 3rem;
+}
+
+.slack_des{
+   background-color: #246cb3 ;
+   color: black;
+   font-size: 2rem;
+   padding: 0 10px;;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.slack_des:hover{
+    background-color: #007efc ;
+}
+
+.slack_des a {
+  color: #fff;
+
+}
+
+.slack_des a:visited{
+  color: #fff;
+}
