@@ -18,42 +18,14 @@ const Navbar = () => {
             </h4>
         </div>
         <div>
-          <ul className='Navbar_list'>
-            <li>
-           <Link to="/aboutus"> 
-           About us
-           </Link>
-            </li>
-            <li>
-           <Link to="/members"> 
-                Our Members
-           </Link> 
-            </li>
-            <li>
-            <Link to="/opportunities"> 
-            Opportunities
-            </Link>
-            </li>
-            <li>
-              <a
-                rel='noreferrer'
-                href='https://github.com/hparashar27/openlysource'
-                target='_blank'
-              >
-                GitHub <BsGithub />
-              </a>
-            </li>
-            <li>
-            <Link to="/Sign-up"> 
-                <button className='btn'>Sign Up</button>
-              </Link>
-            </li>
-            <li>
-            <Link to="/Log-in"> 
-                <button className='btn'>Log in</button>
-            </Link>
-            </li>
-          </ul>
+            <ul className='Navbar_list'>
+              <li ><Link to="/Aboutus">About us</Link></li>
+                <li><Link target='_blank' to="/Members">Our Members</Link></li>
+                <li ><Link to="/Opportunities">Opportunities</Link></li>
+                <li><a rel="noreferrer" href="https://github.com/hparashar27/openlysource" target='_blank' >GitHub <BsGithub/></a></li>
+                <li ><Link to="/Sign-up"><button class="btn">Sign Up</button></Link></li>     
+                <li ><Link to="/Log-in"><button class="btn">Log in</button></Link> </li>            
+            </ul>
         </div>
       </div>
       </div>

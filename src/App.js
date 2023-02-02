@@ -2,12 +2,14 @@ import './App.css';
 // import { Navbar, Header, Footer } from './Components';
 // import from "./Components/Header/About";
 import { BrowserRouter as Router, Route ,Switch} from 'react-router-dom';
+import ScrollButton from './Components/About-us/ScrollButton';
 import Opportunities from './Components/Opportunities/Opportunities';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import UnderConstruction from './Components/UnderConstruction/UnderConstruction';
 import Login from "./Components/Login/Login";
 import Signup from "./Components/Signup/Signup"
+import About  from './Components/About-us/About';
 
 
 function App() {
@@ -22,7 +24,8 @@ function App() {
   <Opportunities/>
   </Route>
   <Route exact path="/Aboutus">
-  <UnderConstruction/>
+  <About/>
+  <ScrollButton/>
   </Route>
   <Route exact path="/Members">
   <UnderConstruction/>
