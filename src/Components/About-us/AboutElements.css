@@ -2,15 +2,14 @@
 
 .AboutContainer 
     {color: #fff;
-        height:1300px;
-/* height:1200px;
-width:20px;
-background-size:auto;
-background-repeat:no-rep */
-  
-    /* background-image :url(https://static.vecteezy.com/system/resources/thumbnails/003/123/185/small/saber-neon-glow-color-flowing-rectangle-background-free-photo.jpg);
-    background-repeat:no-repeat;
-    background-size:cover; */
+        /* background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%); */
+        height:1800px;
+        background-image :url(../../assets/images/abstract-black-blue-lines-PhotoRoom\.jpg);
+        background-repeat:no-repeat; 
+        background-size:cover;
+        background-attachment: fixed;
+
+    
 
     @media screen and (max-width: 768px){
         padding: 100px 0;
@@ -19,17 +18,17 @@ background-repeat:no-rep */
 
 .AboutH1
 {margin-bottom: 60px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 text-align:center;
     font-size: 70px;
     line-height: 1.1;
     font-weight: 300;
     /* text-transform: uppercase; */
-    color: #ff00fe;
-    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;}
+    color: #fff;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
     /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
       0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff; */
-   
+}
 
 .AboutWrapper
     {
@@ -60,7 +59,7 @@ text-align:center;
     display: flex;
    align-items: center;
    margin-top: 0px;
-   height:80vh;
+   height:100vh;
 }
 .Column1 
     {margin-bottom: 0px;
@@ -107,13 +106,15 @@ text-align:center;
     margin-top: 300px;
 }
 .SubTitle
-    {max-width: 450px;
-    margin-bottom: 35px;
+    {max-width: max-content;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-bottom: 35px; */
     font-size: 20px;
-    font-weight:70px;
+    font-weight:50px;
     line-height: 27px;
     color: white; 
-    text-align:center;}
+    text-align:center;
+}
 
 .ImgWrap 
     {max-width: 555px;
@@ -122,11 +123,12 @@ text-align:center;
     
 li{
     text-align: left;
-    margin-bottom: 4px;
-    
+    margin-bottom: 7px;
+    /* list-style-type: #128640; */
 }
 ul{
     margin-top: 0px;
+    list-style-type:"\1F680";
 }
 img 
     {width: 100%;
@@ -138,8 +140,38 @@ img
 .socialsrow{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     height:50vh;
+    
 }
-.socialscolumn{
+/* .socialscolumn{
     flex:50%;
+    margin-bottom: 15px;
+} */
+.btn{
+    color:#fff;
+    /* position:static; */
+    
+    display: flex;
+    justify-content: center;
+  align-items: center;
+/* height: 50vh; */
 }
+.card{
+    border-radius:2px ;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(146, 129, 129, 0.9);
+    cursor: pointer;
+    height: 210px;
+}
+.card-img-top{
+    width:50%;
+    border-radius: 50px;
+    margin-top:20px;
+    
+}
+.card:hover {
+    transform: scale(1.15);
+    transition:all 0.5s ease-in-out;
+    box-shadow: 5px 5px 15px rgba(122, 107, 107, 0.6);
+  }

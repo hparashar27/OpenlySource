@@ -12,12 +12,12 @@
 // export default About
 
 import React from 'react'
+import Button from 'react-bootstrap/Button';
 import Opensource from "../../assets/Open source-cuate.png"
 import colab from "../../assets/Creative team-pana.png"
+import Card from 'react-bootstrap/Card';
 import "./AboutElements.css"
-// import { Link } from 'react-router-dom'
-// import {Button} from '../ButtonElements'
-// import { AboutContainer, AboutWrapper, AboutRow,Column1, Column2, Column3,Column4,TextWrapper,  Heading, SubTitle, AboutH1 ,Column5,Column6, ImgWrap, Img } from './AboutElements'
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -30,45 +30,19 @@ const About = () => {
                 <div className="TextWrapper">
                     
                     <div className="Heading" >What is OpenlySource?</div>
-                    <div className="SubTitle" >OpenlySource is a open source community , where you learn more about open source contribution to large codebases , interact with some of the best open source contributors 🚀 </div>
+                    <div className="SubTitle" >OpenlySource  is a community of open-source enthusiasts , where you learn contributing to open source projects and collaborate with contributors from around the world. It is committed towards providing resources and support to you  and helps to build a strong and thriving open-source community! 🚀 </div>
                     
                 </div>
                 </div>
                  <div className="Column1 ">
                 <div className="ImgWrap">
                 {/* <div className="Img">  */}
-                <img src={Opensource} alt="avhh"/> 
+                <img src={Opensource} alt="opensource-collaboration"/> 
                 </div>
                 </div>
                
 
-                {/*<Column3  id2={id2}>
-                <TextWrapper>
-                   
-                    <Heading >{headline1}</Heading>
-                    <SubTitle >{description1}</SubTitle>
-                    
-                </TextWrapper>
-                </Column3> */}
-                {/* <Column4 imgStart1={imgStart1} id2={id2}>
-                <ImgWrap>
-                <Img src={img1} alt={alt}/> 
-                </ImgWrap>
-                </Column4>
-
-                <Column5 id3={id3}>
-                <TextWrapper>
-                  
-                    <Heading >{headline2}</Heading>
-                    <SubTitle >{description2}</SubTitle>
-                    
-                </TextWrapper>
-                </Column5>
-                <Column6 imgStart2={imgStart2} id3={id3}>
-                <ImgWrap>
-                <Img src={img2} alt={alt}/> 
-                </ImgWrap>
-                </Column6 > */}
+                
             </div>
         </div>
 <div className='Heading1'>Benefits of Joining Us
@@ -78,32 +52,70 @@ const About = () => {
 <div className="Column1 ">
                 <div className="ImgWrap">
                 {/* <div className="Img">  */}
-                <img src={colab} alt="avhh"/> 
+                <img src={colab} alt="collaboration"/> 
                 </div>
                 </div>
                 <div className="Column1 ">
                 <div className="TextWrapper">
                     
-                    {/* <div className="Heading" >What is OpenlySource?</div> */}
+                    
                     <div className="SubTitle" >
                       <ul>
                         <li>Collaborate with a diverse group of individuals and organizations.</li>
+                        <li>Get aware about upcoming hackathons and internship opportunities in open source.</li>
                         <li>Access to a supportive and inclusive community that values collaboration and diversity.</li>
                         <li>Access to a vast pool of resources and support.</li>
-                        <li>Learn new skills and technologies through hands-on experience and mentorship</li>
-                        <li>Contribute to meaningful projects and make a positive impact in the open source community</li>
+                        <li>Learn new skills and technologies through hands-on experience and mentorship.</li>
+                        <li>Contribute to meaningful projects and make a positive impact in the open source community.</li>
                         </ul> </div>
                     
                 </div>
+                <a href="https://lnkd.in/dvVB7Cfk"target="_blank">
+                <Button variant="primary">Join the community now
+                
+                </Button>
+                </a>
                 </div>
-                 
+                  
                 </div>
-                <div className='Heading3'>Join Us
+                <div className='Heading3'>Join Us Here
+  
+               
 
 </div>
 <div className='socialsrow'>
-  <div className='socialcolumn'></div>
-  <div className='socialcolumn'></div>
+ 
+  <div>
+    <a href="https://lnkd.in/dvVB7Cfk"target="_blank">
+  <Card  style={{ width: '13rem' }}>
+ 
+      <Card.Img variant="top" src="https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png" />
+      <Card.Body>
+     
+        <Card.Text>
+         Join the slack community and connect with like-minded people across the country.
+        </Card.Text>
+        
+      </Card.Body>
+    </Card>
+    </a>
+    </div>
+  
+  <div>
+    <a href="https://github.com/hparashar27/OpenlySource"target="_blank">
+  <Card style={{ width: '13rem' }}>
+      <Card.Img variant="top" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
+      <Card.Body>
+        
+        <Card.Text>
+         This is the github repo of OpenlySource made using javascript and reactjs.
+        </Card.Text>
+        
+      </Card.Body>
+    </Card>
+   </a>
+  </div>
+  
 </div>
       </div>
     </>
