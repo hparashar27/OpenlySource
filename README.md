@@ -21,15 +21,15 @@ Want to be a openlysource community member , take these steps :-
 
 ### `git clone URL `
 
-2 change the directory by running this command
+2 Change the directory by running this command
 
 ### `cd openlysource`
 
-3 now install the dependencies by running this command
+3 Now install the dependencies by running this command
 
 ### `npm install`
 
-4 run the application by running this command
+4 Run the application by running this command
 
 ### `npm run start`
 
@@ -40,9 +40,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## To start the backend server:
 
-1 make sure to have mongodb set up on your system
+1 Make sure to have mongodb set up on your system
 
-2 change directory to openlysource-backend directory run command:
+2 Change directory to openlysource-backend directory run command:
 
 ### `cd openlysource-backend`
 
@@ -50,15 +50,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm install`
 
-3 to install Mongoose seed data package globally run command:
+3 To install Mongoose seed data package globally run command:
 
 ### `npm install -g mongoose-data-seed `
 
-4 run command to seed data:
+4 Run command to seed data:
 
 ### `md-seed run`
 
-5 to start the development server:
+5 To start the development server:
 
 ### `npm run dev`
 
@@ -71,18 +71,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-## Aim
+## Why contribute to this repo?
 
-1 Why to contribute to this repo ?
-Main aim of this community is to spread awareness and importance of open source contribution in today's world .By doing contribution to this repo you will learn new things in the world of open source
+The main aim of this community is to spread awareness and the importance of open-source contributions in today's world. By doing contributions to this repo you will learn new things in the world of open source
 
 # What to expect from this openlysource
 
-- You can share your open source contribution experience
-- you will get update regarding upcoming open source events like (Summer of bitcoins , GSOC )
-- you will get tips and tricks from those who have cracked all such open source events
-- you can make your open source profile , with your skills and achievements
-- many more features ......
+-   You can share your open-source contribution experience
+-   You will get updates regarding upcoming open source events like (Summer of bitcoins, GSOC )
+-   You will get tips and tricks from those who have cracked all such open-source events
+-   You can make your open-source profile, with your skills and achievements
+-   Many more features...
 
 #### CONTRIBUTING GUIDELINES: [click here](./CONTRIBUTING.md)
 
