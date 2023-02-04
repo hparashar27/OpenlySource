@@ -1,43 +1,48 @@
-.App{
-    /* display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    background-color: #040C18;
-    height: 100%;
-    color: #fff;
-    font-weight: 700;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem; */
-}
-
-*{
-    margin:0px;
+* {
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
- body{
+body {
     background-color: var(--color-bg);
+    font-family: var(--font-family);
 }
 
-.gradient_bg
-{
+.gradient_bg {
     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -moz-radial-gradient(
+        circle at 3% 25%,
+        rgba(0, 40, 83, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-radial-gradient(
+        circle at 3% 25%,
+        rgba(0, 40, 83, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -o-radial-gradient(
+        circle at 3% 25%,
+        rgba(0, 40, 83, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -ms-radial-gradient(
+        circle at 3% 25%,
+        rgba(0, 40, 83, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 
     /* global 92%+ browsers support */
-    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
-
+    background: radial-gradient(
+        circle at 3% 25%,
+        rgba(0, 40, 83, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 }
-  
