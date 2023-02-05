@@ -1,32 +1,30 @@
-.Navbar{
+.Navbar {
     display: flex;
     flex: 1;
     flex-direction: row;
-     align-items: center; 
-justify-content: space-between
+    align-items: center;
+    justify-content: space-between;
 }
 
-.logo{
-    display:inline-flex;
+.logo {
+    display: inline-flex;
     /* justify-content: center; */
     align-items: center;
     color: #fff;
-
 }
 
-.logo_des{
-font-family: poppins;
-font-weight: 400 ;
-font-size: 2rem;
-color: var(--color-text)
+.logo_des {
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--color-text);
 }
 
-.logo_img{
+.logo_img {
     height: 10%;
     width: 25%;
 }
 
-.Navbar_list{
+.Navbar_list {
     position: relative;
     display: flex;
     justify-content: center;
@@ -39,7 +37,7 @@ color: var(--color-text)
     margin-right: 5rem;
 }
 
-.Navbar_list li{
+.Navbar_list li {
     margin-left: 1.4rem;
     font-size: 1.3rem;
     cursor: pointer;
@@ -48,52 +46,66 @@ color: var(--color-text)
     z-index: 2;
 }
 
-.Navbar_list li:hover{
+.Navbar_list li:hover {
     margin-left: 1.4rem;
     color: rgb(189, 189, 189);
-    
 }
 
-.gradient_bg
-{
-
+.gradient_bg {
     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -moz-radial-gradient(
+        circle at 3% 25%,
+        rgba(0, 40, 83, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-radial-gradient(
+        circle at 3% 25%,
+        rgba(0, 40, 83, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -o-radial-gradient(
+        circle at 3% 25%,
+        rgba(0, 40, 83, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -ms-radial-gradient(
+        circle at 3% 25%,
+        rgba(0, 40, 83, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 
     /* global 92%+ browsers support */
-    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(0, 0, 0, 1) 100%);
-
+    background: radial-gradient(
+        circle at 3% 25%,
+        rgba(0, 40, 83, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 }
-  
+
 a {
     color: inherit;
     text-decoration: inherit;
     cursor: inherit;
-  }
+}
 
-  .btn {
-    background-color: #042c54; 
-    color: white; 
+.btn {
+    background-color: #042c54;
+    color: white;
     padding: 10px;
-    font-size: 16px; 
+    font-size: 16px;
     cursor: pointer;
-    border : solid #042c54; 
+    border: solid #042c54;
     border-radius: 5px;
-      }
+}
 
-
-.btn:hover{
-        background-color: #246cb3;
-    border : solid #246cb3; 
+.btn:hover {
+    background-color: #246cb3;
+    border: solid #246cb3;
     border-radius: 10px;
-
-    }
+}
