@@ -1,5 +1,5 @@
 const opportunitiesServices = require("../../services/Opportunities");
-const { successResponse, serverErrorResponse } = require("../../utils/response.utils");
+const { successResponse, notFoundResponse, serverErrorResponse } = require("../../utils/response.utils");
 
 const getEvents = async (req, res, next) => {
   try {
@@ -44,7 +44,41 @@ const addEvent = async (req, res, next) => {
   }
 };
 
+const updateEvent = async (req, res, next) => {
+  try {
+    const id = req.params.id
+    if (!id) {
+      notFoundResponse(res)
+    }
+    let event = await opportunitiesServices.updateEvent(req.body, id)
+    if (!event) {
+      serverErrorResponse(res);
+      return;
+    }
+    successResponse(res, { Message: "Event Updated successfully" });
+  } catch (error) {
+    next(error)
+  }
+}
+const deleteEvent = async (req, res, next) => {
+  try {
+    const id = req.params.id
+    if (!id) {
+      notFoundResponse(res)
+    }
+    let event = await opportunitiesServices.deleteEvent(id)
+    if (!event) {
+      serverErrorResponse(res);
+      return;
+    }
+    successResponse(res, { Message: "Event Deleted Successfully" });
+  } catch (error) {
+    next(error)
+  }
+}
 module.exports = {
   getEvents,
   addEvent,
+  updateEvent,
+  deleteEvent
 };

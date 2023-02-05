@@ -10,5 +10,6 @@ opportunitiesRouter.post(
   celebrate(validtor.addEvent),
   opportunitiesController.addEvent,
 );
-
+opportunitiesRouter.put('/event/:id', opportunitiesController.updateEvent)
+opportunitiesRouter.delete('/event/:id', opportunitiesController.deleteEvent)
 module.exports = opportunitiesRouter;
