@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+![GitHub repo size](https://img.shields.io/github/repo-size/hparashar27/OpenlySource)
 # Welcome to OpenlySource Community
 
 OpenlySource is a open source community , where you learn more about open source contribution to large codebases , interact with some of the best open source contributors 🚀
