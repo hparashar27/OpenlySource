@@ -1,3 +1,4 @@
+/* Home */
 form {
     display: flex;
     justify-content: center;
@@ -7,14 +8,14 @@ form {
 }
 .box {
     display: flex;
-    width: 722px;
-    border-radius: 26px;
+    width: 45.125rem;
+    border-radius: 1.625rem;
     background: #ffffff;
     backdrop-filter: blur(2px);
     margin-top: 1.25rem;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
-.profile {
+.header__profile {
     width: 4.5rem;
 }
 
@@ -22,19 +23,20 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 22px;
-    width: 583px;
+    margin-bottom: 1.375rem;
+    width: 90%;
 }
 
 .middle {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .input {
-    width: 577px;
-    height: 69px;
+    width: 90%;
+    height: 4.3125rem;
     margin: 0 auto;
     margin-bottom: 1.375rem;
     padding-left: 1.125rem;
@@ -43,39 +45,75 @@ form {
 .input-textarea {
     padding: 1rem 0;
     padding-left: 1.125rem;
-    width: 577px;
-    height: 69px;
+    width: 90%;
+    height: 4.3125rem;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
-.primary-btn {
-    width: 156px;
-    height: 61px;
+.header__btn {
+    width: 9.75rem;
+    height: 3.8125rem;
     border: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    color: #2c91ed;
+    font-size: 1rem;
     cursor: pointer;
 }
 
-.secondary-btn {
-    width: 156px;
-    height: 61px;
-    border: none;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    color: #de3e3e;
-    cursor: pointer;
+/* Cards */
+.carousal {
+    margin-top: 1.25rem;
+    padding: 1.25rem 0;
 }
 
-.primary-btn:hover {
-    background-color: #2c90ed32;
+.carousal__card {
+    width: 80%;
+    background-color: white;
+    padding: 20px 2.5rem;
+    border-radius: 1.25rem 2.5rem;
+    margin: 0 auto;
 }
-.secondary-btn:hover {
-    background-color: #de3e3e5c;
+
+.carousal__card .carousal__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.375rem;
+}
+
+.carousal__card .carousal__header .profile {
+    width: 4.5rem;
+}
+
+/* Media */
+@media only screen and (max-width: 767px) {
+    .box {
+        width: calc(100% - 40px);
+        padding: 1.25rem;
+    }
+    .header__btn {
+        width: 100%;
+        margin-top: 1.25rem;
+    }
+    .input {
+        width: 100%;
+        margin-bottom: 1.25rem;
+    }
+    .input-textarea {
+        width: 100%;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .header__profile {
+        margin-bottom: 1.25rem;
+    }
+    .header__btn {
+        margin-top: 1.25rem;
+        width: 100%;
+    }
 }
