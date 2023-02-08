@@ -1,9 +1,15 @@
 import { useEffect, useState } from 'react';
+import mlh from '../../assets/mlh_logo.jpg';
+import gsoc from '../../assets/gsoc_logo.svg';
+import sob from '../../assets/sob_logo.png';
+import { BsMoonStarsFill } from 'react-icons/bs';
+import { ImSun } from 'react-icons/im';
 import { TbLink } from 'react-icons/tb';
 import axios from 'axios';
 import './Opportunities.css';
 
 const Opportunities = () => {
+    const [DarkTheme, setDarkTheme] = useState(false);
     const [Events, setEvents] = useState([]);
     useEffect(() => {
         const fecthData = async () => {
@@ -17,10 +23,32 @@ const Opportunities = () => {
         fecthData();
     }, []);
     return (
-        <div className="Opp_body">
+        <div
+            className={` ${
+                DarkTheme
+                    ? 'Opportunities_LightTheme'
+                    : 'Opportunities_DarkTheme'
+            }`}
+        >
             {/* opportunities heading  */}
             <div className="Opp_heading">
                 All Upcoming open-source opportunities
+                <div className="Opp_heading_icon">
+                    <button>
+                        {' '}
+                        {DarkTheme ? (
+                            <BsMoonStarsFill
+                                className="icon"
+                                onClick={() => setDarkTheme(false)}
+                            />
+                        ) : (
+                            <ImSun
+                                className="icon"
+                                onClick={() => setDarkTheme(true)}
+                            />
+                        )}{' '}
+                    </button>
+                </div>
             </div>
             <div className="Opp_cards_list">
                 {/* for Google summer of code */}
@@ -60,6 +88,7 @@ const Opportunities = () => {
                     ))}
             </div>
         </div>
+        // </div>
     );
 };
 
