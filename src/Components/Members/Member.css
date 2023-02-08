@@ -6,9 +6,23 @@ form {
     flex-direction: column;
     margin: 0 auto;
 }
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3.25rem;
+}
+
 .box {
     display: flex;
-    width: 45.125rem;
+    /* width: 45.125rem; */
     border-radius: 1.625rem;
     background: #ffffff;
     backdrop-filter: blur(2px);
@@ -19,6 +33,9 @@ form {
     width: 4.5rem;
 }
 
+.icon {
+    width: 15%;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -60,6 +77,8 @@ form {
     font-weight: 600;
     font-size: 1rem;
     cursor: pointer;
+    margin: 0.75rem 0.75rem;
+    border-radius: 0.75rem;
 }
 
 /* Cards */
