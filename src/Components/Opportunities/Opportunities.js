@@ -1,7 +1,4 @@
 import { useEffect,useState } from "react"; 
-import mlh from "../../assets/mlh_logo.jpg";
-import gsoc from "../../assets/gsoc_logo.svg";
-import sob from "../../assets/sob_logo.png"
 import {BsMoonStarsFill} from "react-icons/bs"
 import {ImSun} from "react-icons/im"
 import {TbLink} from "react-icons/tb"
