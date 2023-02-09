@@ -35,6 +35,8 @@
 
 .info img {
   display: block;
+  width: 30%;
+  height: 70%;
 }
 
 .info p {

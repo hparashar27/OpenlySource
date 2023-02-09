@@ -43,6 +43,105 @@ const Member = () => {
                         Quisquam, quod. Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Quisquam, quod.
                     </p>
+                </div><div className="carousal__card">
+                    <div className="carousal__header">
+                        <img src={profile} className="profile" alt="" />
+                        <h2>Member</h2>
+                        <img src={gitIcon} className="icon" alt="github" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam, quod.
+                    </p>
+                </div><div className="carousal__card">
+                    <div className="carousal__header">
+                        <img src={profile} className="profile" alt="" />
+                        <h2>Member</h2>
+                        <img src={gitIcon} className="icon" alt="github" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam, quod.
+                    </p>
+                </div><div className="carousal__card">
+                    <div className="carousal__header">
+                        <img src={profile} className="profile" alt="" />
+                        <h2>Member</h2>
+                        <img src={gitIcon} className="icon" alt="github" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam, quod.
+                    </p>
+                </div><div className="carousal__card">
+                    <div className="carousal__header">
+                        <img src={profile} className="profile" alt="" />
+                        <h2>Member</h2>
+                        <img src={gitIcon} className="icon" alt="github" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam, quod.
+                    </p>
+                </div><div className="carousal__card">
+                    <div className="carousal__header">
+                        <img src={profile} className="profile" alt="" />
+                        <h2>Member</h2>
+                        <img src={gitIcon} className="icon" alt="github" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam, quod.
+                    </p>
+                </div><div className="carousal__card">
+                    <div className="carousal__header">
+                        <img src={profile} className="profile" alt="" />
+                        <h2>Member</h2>
+                        <img src={gitIcon} className="icon" alt="github" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam, quod.
+                    </p>
+                </div><div className="carousal__card">
+                    <div className="carousal__header">
+                        <img src={profile} className="profile" alt="" />
+                        <h2>Member</h2>
+                        <img src={gitIcon} className="icon" alt="github" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam, quod.
+                    </p>
+                </div><div className="carousal__card">
+                    <div className="carousal__header">
+                        <img src={profile} className="profile" alt="" />
+                        <h2>Member</h2>
+                        <img src={gitIcon} className="icon" alt="github" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam, quod.
+                    </p>
+                </div><div className="carousal__card">
+                    <div className="carousal__header">
+                        <img src={profile} className="profile" alt="" />
+                        <h2>Member</h2>
+                        <img src={gitIcon} className="icon" alt="github" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam, quod.
+                    </p>
                 </div>
             </Carousel>
         </>
