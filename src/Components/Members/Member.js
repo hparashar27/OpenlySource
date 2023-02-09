@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import profile from '../../assets/images/profile.png';
 import Carousel from 'react-multi-carousel';
 import gitIcon from '../../assets/images/github.svg';
@@ -30,60 +29,7 @@ const Member = () => {
     return (
         <>
             <div className="heading">
-                <h1>Want to become Openlysource member</h1>
-                <Button color="danger" onClick={toggle}>
-                    Join Now
-                </Button>
-            </div>
-            <div>
-                <Modal isOpen={modal} toggle={toggle}>
-                    <ModalHeader toggle={toggle}>Become a member</ModalHeader>
-                    <ModalBody>
-                        <form action="" className="box">
-                            <div className="header">
-                                <img
-                                    src={profile}
-                                    className="header__profile"
-                                    alt=""
-                                />
-                                <button
-                                    type="file"
-                                    id="myFile"
-                                    name="filename"
-                                    className="header__btn header__btn--primary"
-                                >
-                                    Change Image
-                                </button>
-                                <button className="header__btn header__btn--secondary">
-                                    Remove
-                                </button>
-                            </div>
-                            <div className="middle">
-                                <input
-                                    className="input"
-                                    type="text"
-                                    placeholder="Name"
-                                />
-                                <input
-                                    className="input"
-                                    type="text"
-                                    placeholder="Github Link"
-                                />
-                                <textarea
-                                    rows="4"
-                                    cols="50"
-                                    className="input-textarea"
-                                    placeholder="Share your thoughts about Open-source"
-                                ></textarea>
-                            </div>
-                        </form>
-                    </ModalBody>
-                    <ModalFooter>
-                        <Button color="primary" onClick={toggle}>
-                            Submit
-                        </Button>
-                    </ModalFooter>
-                </Modal>
+                <h1>Openlysource members</h1>
             </div>
             <Carousel className="carousal" responsive={responsive}>
                 <div className="carousal__card">
