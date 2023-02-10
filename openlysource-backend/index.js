@@ -27,7 +27,7 @@ const corsOptions = {
   },
 };
 
-// Start server
+// Start servers
 httpServer.listen(8000, () => {
   logger.info("Server started at port " + 8000);
   connectDB();
@@ -35,7 +35,7 @@ httpServer.listen(8000, () => {
 
 require("./models");
 
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
 app.use(cookieParser(process.env.COOKIE_SECRET));
@@ -48,6 +48,7 @@ app.use(express.json());
 app.use(morganMiddleware);
 
 app.use("/api/opportunities", opportunitiesRoutes);
+app.use('/api',require('./routes/Members/index'))
 app.use(handleErrors);
 
 module.exports = app;
