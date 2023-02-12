@@ -89,4 +89,4 @@ The main aim of this community is to spread awareness and the importance of open
 
 #### CODE OF CONDUCT: [click here](./CODE_OF_CONDUCT.md)
 
-### Here you go 🚀🚀🚀
+
