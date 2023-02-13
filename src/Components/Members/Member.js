@@ -35,112 +35,93 @@ const Member = () => {
                 <div className="carousal__card">
                     <div className="carousal__header">
                         <img src={profile} className="profile" alt="" />
-                        <h2>Member</h2>
+                        <h2>Linus Torvalds</h2>
                         <img src={gitIcon} className="icon" alt="github" />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam, quod.
+                    The creator of the Linux operating system, is a strong advocate for open source and has said that "open source is the way to go
                     </p>
                 </div><div className="carousal__card">
                     <div className="carousal__header">
                         <img src={profile} className="profile" alt="" />
-                        <h2>Member</h2>
+                        <h2>Richard Stallman</h2>
                         <img src={gitIcon} className="icon" alt="github" />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam, quod.
+                    He believes that all software should be free and open source, and has been a leading voice in the open source movement.
                     </p>
                 </div><div className="carousal__card">
                     <div className="carousal__header">
                         <img src={profile} className="profile" alt="" />
-                        <h2>Member</h2>
+                        <h2>Mark Shuttle</h2>
                         <img src={gitIcon} className="icon" alt="github" />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam, quod.
+                    He believes that open source is a way to bring technology to everyone, and has made it his mission to create an open source operating system
                     </p>
                 </div><div className="carousal__card">
                     <div className="carousal__header">
                         <img src={profile} className="profile" alt="" />
-                        <h2>Member</h2>
+                        <h2>Tim O'Reilly</h2>
                         <img src={gitIcon} className="icon" alt="github" />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam, quod.
+                    Founder of O'Reilly Media, has said that "open source is a way of life," and believes that the open source movement has transformed the software industry.
                     </p>
                 </div><div className="carousal__card">
                     <div className="carousal__header">
                         <img src={profile} className="profile" alt="" />
-                        <h2>Member</h2>
+                        <h2>Eric S. Raymond</h2>
                         <img src={gitIcon} className="icon" alt="github" />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam, quod.
+                    Author of "The Cathedral and the Bazaar," is a leading voice in the open source community and has written extensively on the benefits of open source development.
                     </p>
                 </div><div className="carousal__card">
                     <div className="carousal__header">
                         <img src={profile} className="profile" alt="" />
-                        <h2>Member</h2>
+                        <h2>Jim Whitehurst</h2>
                         <img src={gitIcon} className="icon" alt="github" />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam, quod.
+                     He is a former CEO of Red Hat, has said that open source is "a better way to build software," and has led the company to become a major player in the enterprise software industry.
                     </p>
                 </div><div className="carousal__card">
                     <div className="carousal__header">
                         <img src={profile} className="profile" alt="" />
-                        <h2>Member</h2>
+                        <h2>Mitchell Baker</h2>
                         <img src={gitIcon} className="icon" alt="github" />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam, quod.
+                     CEO of Mozilla, has said that open source is about "participation and empowerment," and believes that the open source model can be applied to many other areas beyond software.
+
                     </p>
                 </div><div className="carousal__card">
                     <div className="carousal__header">
                         <img src={profile} className="profile" alt="" />
-                        <h2>Member</h2>
+                        <h2>Michael Tiemann</h2>
                         <img src={gitIcon} className="icon" alt="github" />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam, quod.
+                    co-founder of Red Hat, has called open source "the greatest paradigm shift in the history of computing," and believes that it has the potential to transform society.
                     </p>
                 </div><div className="carousal__card">
                     <div className="carousal__header">
                         <img src={profile} className="profile" alt="" />
-                        <h2>Member</h2>
+                        <h2>Bruce Perens</h2>
                         <img src={gitIcon} className="icon" alt="github" />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam, quod.
+                    co-founder of the Open Source Initiative, has said that open source is "the only way to make sure that software is reliable, trustworthy, and can be improved by anyone who cares to try."
                     </p>
                 </div><div className="carousal__card">
                     <div className="carousal__header">
                         <img src={profile} className="profile" alt="" />
-                        <h2>Member</h2>
+                        <h2>Matt Mullenweg</h2>
                         <img src={gitIcon} className="icon" alt="github" />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam, quod.
+                    founder of WordPress, has said that open source is "about democratizing publishing and making it accessible to everyone," and believes that it has the potential to create positive social change
                     </p>
                 </div>
             </Carousel>
