@@ -24,7 +24,7 @@ fecthData();
       {/* opportunities heading  */}
       <div className="Opp_heading">All Upcoming open-source opportunities
       <div className="Opp_heading_icon">
-        <button > {DarkTheme ? <BsMoonStarsFill className='icon' onClick = {()=>setDarkTheme(false)}/> : <ImSun className='icon'onClick = {()=>setDarkTheme(true)}/>} </button></div>
+        <button > {DarkTheme ? <BsMoonStarsFill className='theme_icon' onClick = {()=>setDarkTheme(false)}/> : <ImSun className='theme_icon' onClick = {()=>setDarkTheme(true)}/>} </button></div>
        </div>
       <div className="Opp_cards_list">
         {/* for Google summer of code */}

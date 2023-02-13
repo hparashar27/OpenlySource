@@ -91,12 +91,13 @@ color: black;
 
 .Opp_heading_icon button{
     border: none;
+    font-size: 2rem;
     background-color:#fff;
-    /* padding: 0.4rem; */
+    margin: 0.2rem;
 }
 
-.icon{
-    /* font-size: 1.2rem;  */
+.theme_icon{
+    font-size: 2rem;
 }
 .visit_button {
     display: flex;
