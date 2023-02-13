@@ -92,11 +92,11 @@ color: black;
 .Opp_heading_icon button{
     border: none;
     background-color:#fff;
-    padding: 0.4rem;
+    /* padding: 0.4rem; */
 }
 
 .icon{
-    font-size: 1.2rem; 
+    /* font-size: 1.2rem;  */
 }
 .visit_button {
     display: flex;

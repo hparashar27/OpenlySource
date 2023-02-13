@@ -31,8 +31,8 @@ function App() {
                     <Member />
                 </Route>
             </Switch>
-            <Route exact path="/Log-in" component={Login} />
-            <Route exact path="/Sign-up" component={Signup} />
+            {/* <Route exact path="/Log-in" component={Login} />
+            <Route exact path="/Sign-up" component={Signup} /> */}
         </Router>
     );
 }

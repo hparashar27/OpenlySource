@@ -37,7 +37,7 @@ const Navbar = () => {
                                     GitHub <BsGithub />
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link to="/Sign-up">
                                     <button class="btn">Sign Up</button>
                                 </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
                                 <Link to="/Log-in">
                                     <button class="btn">Log in</button>
                                 </Link>{' '}
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
