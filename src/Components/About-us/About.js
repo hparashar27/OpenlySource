@@ -91,11 +91,9 @@ const About = () => {
  
       <Card.Img variant="top" src="https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png" />
       <Card.Body>
-     
         <Card.Text>
          Join the slack community and connect with like-minded people across the country.
         </Card.Text>
-        
       </Card.Body>
     </Card>
     </a>
