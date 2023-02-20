@@ -23,6 +23,7 @@ h1 {
 .box {
     display: flex;
     /* width: 45.125rem; */
+    /* width: 45.125rem; */
     border-radius: 1.625rem;
     background: #ffffff;
     backdrop-filter: blur(2px);
@@ -43,14 +44,12 @@ h1 {
     margin-bottom: 1.375rem;
     width: 90%;
 }
-
 .middle {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
-
 .input {
     width: 90%;
     height: 4.3125rem;
@@ -58,7 +57,6 @@ h1 {
     margin-bottom: 1.375rem;
     padding-left: 1.125rem;
 }
-
 .input-textarea {
     padding: 1rem 0;
     padding-left: 1.125rem;
@@ -67,7 +65,6 @@ h1 {
     margin: 0 auto;
     margin-bottom: 0.75rem;
 }
-
 .header__btn {
     width: 9.75rem;
     height: 3.8125rem;
@@ -86,7 +83,6 @@ h1 {
     margin-top: 1.25rem;
     padding: 1.25rem 0;
 }
-
 .carousal__card {
     width: 80%;
     background-color: white;
@@ -94,18 +90,15 @@ h1 {
     border-radius: 1.25rem 2.5rem;
     margin: 0 auto;
 }
-
 .carousal__card .carousal__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.375rem;
 }
-
 .carousal__card .carousal__header .profile {
     width: 4.5rem;
 }
-
 /* Media */
 @media only screen and (max-width: 767px) {
     .box {
