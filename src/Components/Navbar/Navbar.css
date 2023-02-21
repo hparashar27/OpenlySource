@@ -79,7 +79,9 @@
     
 }
 
-
+.menu_icon{
+    font-size: 10rem;
+}
 
 .list_container{
     flex: 4;
@@ -91,6 +93,28 @@
     height: 100%;
 }
 
+.navbar-menu{
+    margin-left: 1rem;
+    cursor: pointer;
+    display: none;
+    position: relative;
+}
+.Navbar_list_mobile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer,0.1);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
 .Navbar_list {
 
     width: 100%;
@@ -117,6 +141,16 @@
    
 }
 
+.Navbar_list_mobile{
+color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
 
 
 .Navbar_list li:hover {
@@ -149,8 +183,33 @@ a {
 }
 
 
-@media screen and (max-width: 1000px) {
-    .Navbar_list {
-      display: none;
+@media screen and (max-width: 1050px) {
+    .list_container {
+        display: none;
     }
-  }
+
+    .navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Navbar {
+        padding: 2rem;
+    }
+
+    .gpt3__navbar-sign {
+        display: none;
+    }
+
+    .list_container {
+        top: 20px;
+    }
+
+}
