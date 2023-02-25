@@ -1,14 +1,24 @@
 import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
-import gitIcon from "../../assets/images/github.svg";
+// import gitIcon from "../../assets/images/github.svg";
 import profile from "../../assets/images/profile.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Member.css";
 const Member = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    githubLink: '',
+    thoughts: ''
+  });
   const [modal, setModal] = useState(false);
-
   const toggle = () => setModal(!modal);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    console.log(formData);
+  }
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -37,9 +47,9 @@ const Member = () => {
       </div>
       <div>
         <Modal isOpen={modal} toggle={toggle}>
-          <ModalHeader toggle={toggle}>Become a member</ModalHeader>
-          <ModalBody>
-            <form action="" className="box">
+          <form onSubmit={handleSubmit} className="box">
+            <ModalHeader toggle={toggle}>Become a member</ModalHeader>
+            <ModalBody>
               <div className="header">
                 <img src={profile} className="header__profile" alt="" />
                 <button
@@ -55,26 +65,45 @@ const Member = () => {
                 </button>
               </div>
               <div className="middle">
-                <input className="input" type="text" placeholder="Name" />
+                <input
+                  className="input"
+                  type="text"
+                  placeholder="Name"
+                  value={formData.name}
+                  onChange={(e) => setFormData({
+                    ...formData,
+                    name: e.target.value
+                  })}
+                />
                 <input
                   className="input"
                   type="text"
                   placeholder="Github Link"
+                  value={formData.githubLink}
+                  onChange={(e) => setFormData({
+                    ...formData,
+                    githubLink: e.target.value
+                  })}
                 />
                 <textarea
                   rows="4"
                   cols="50"
                   className="input-textarea"
                   placeholder="Share your thoughts about Open-source"
+                  value={formData.thoughts}
+                  onChange={(e) => setFormData({
+                    ...formData,
+                    thoughts: e.target.value
+                  })}
                 ></textarea>
               </div>
-            </form>
-          </ModalBody>
-          <ModalFooter>
-            <Button color="primary" onClick={toggle}>
-              Submit
-            </Button>
-          </ModalFooter>
+            </ModalBody>
+            <ModalFooter>
+              <Button color="primary" onClick={toggle} type="submit">
+                Submit
+              </Button>
+            </ModalFooter>
+          </form>
         </Modal>
       </div>
       <Carousel className="carousal" responsive={responsive}>

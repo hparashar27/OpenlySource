@@ -7,7 +7,7 @@ const Member = new mongoose.Schema({
     },
     profilePic: {
         type: String,
-        required: true
+        // required: true
     },
     githubProfileLink: {
         type: String,
