@@ -21,12 +21,16 @@ const Member = () => {
     submitData()
   }
   const submitData = async () => {
-    await axios.post('/api/members/', formData)
-    setFormData({
-      name: '',
-      githubProfileLink: '',
-      thoughts: ''
-    })
+    try {
+      await axios.post('http://localhost:8000/api/members', formData)
+      setFormData({
+        name: '',
+        githubProfileLink: '',
+        thoughts: ''
+      })
+    } catch (error) {
+      console.log(error.message)
+    }
   }
 
   const responsive = {
