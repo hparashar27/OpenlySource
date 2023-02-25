@@ -4,6 +4,12 @@ const { successResponse, serverErrorResponse } = require('../../utils/response.u
 const addMembers = async (req, res, next) => {
    try {
       const { name, profilePic, thoughts, githubProfileLink } = req.body
+      // not added profilepic as compulsory field
+      if (!name || !thoughts || !githubProfileLink) {
+         return res.status(401).json({
+            message: 'all fields are required',
+         })
+      }
       let member = await addMember(name, profilePic, githubProfileLink, thoughts);
       if (!member) {
          serverErrorResponse(res);
@@ -34,7 +40,7 @@ const updateMemberById = async (req, res, next) => {
    try {
       const id = req.params.id
       let data = await updateMember(id, req.body);
-      if(!data){
+      if (!data) {
          serverErrorResponse(res);
          return;
       }
@@ -47,7 +53,7 @@ const deleteMemberById = async (req, res, next) => {
    try {
       const id = req.params.id
       let data = await deleteMember(id);
-      if(!data){
+      if (!data) {
          serverErrorResponse(res);
          return;
       }

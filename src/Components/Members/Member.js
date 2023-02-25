@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 // import gitIcon from "../../assets/images/github.svg";
 import profile from "../../assets/images/profile.png";
@@ -8,7 +9,7 @@ import "./Member.css";
 const Member = () => {
   const [formData, setFormData] = useState({
     name: '',
-    githubLink: '',
+    githubProfileLink: '',
     thoughts: ''
   });
   const [modal, setModal] = useState(false);
@@ -17,6 +18,15 @@ const Member = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     console.log(formData);
+    submitData()
+  }
+  const submitData = async () => {
+    await axios.post('/api/members/', formData)
+    setFormData({
+      name: '',
+      githubProfileLink: '',
+      thoughts: ''
+    })
   }
 
   const responsive = {
@@ -79,10 +89,10 @@ const Member = () => {
                   className="input"
                   type="text"
                   placeholder="Github Link"
-                  value={formData.githubLink}
+                  value={formData.githubProfileLink}
                   onChange={(e) => setFormData({
                     ...formData,
-                    githubLink: e.target.value
+                    githubProfileLink: e.target.value
                   })}
                 />
                 <textarea
