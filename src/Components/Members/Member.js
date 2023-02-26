@@ -28,7 +28,6 @@ const Member = () => {
       if (response.statusText === 'OK') {
         fetchData()
       }
-      console.log(response)
       setStatus(true)
       setFormData({
         name: '',
@@ -43,10 +42,8 @@ const Member = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get('http://localhost:8000/api/members')
-      // const data = await response.json()
       setFetchedData(response.data.data)
       setStatus(true)
-      console.log(fetchedData);
     } catch (error) {
       setStatus(false)
       console.log(error.message)
