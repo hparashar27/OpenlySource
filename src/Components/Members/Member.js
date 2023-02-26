@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 // import gitIcon from "../../assets/images/github.svg";
@@ -6,12 +6,15 @@ import profile from "../../assets/images/profile.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Member.css";
+import MemberCard from "./MemberCard.js";
 const Member = () => {
   const [formData, setFormData] = useState({
     name: '',
     githubProfileLink: '',
     thoughts: ''
   });
+  const [fetchedData, setFetchedData] = useState({})
+  const [status, setStatus] = useState(false)
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
 
@@ -23,6 +26,7 @@ const Member = () => {
   const submitData = async () => {
     try {
       await axios.post('http://localhost:8000/api/members', formData)
+      setStatus(true)
       setFormData({
         name: '',
         githubProfileLink: '',
@@ -30,8 +34,28 @@ const Member = () => {
       })
     } catch (error) {
       console.log(error.message)
+      setStatus(false)
     }
   }
+  const fetchData = async () => {
+    try {
+      const response = await axios.get('http://localhost:8000/api/members')
+      // const data = await response.json()
+      setFetchedData(response.data.data)
+      setStatus(true)
+      console.log(fetchedData);
+    } catch (error) {
+      setStatus(false)
+      console.log(error.message)
+    }
+  }
+
+
+  useEffect(() => {
+    console.log('hello');
+    fetchData()
+  }, [status])
+
 
   const responsive = {
     superLargeDesktop: {
@@ -121,61 +145,11 @@ const Member = () => {
         </Modal>
       </div>
       <Carousel className="carousal" responsive={responsive}>
-        <div className="carousal__card">
-          <div className="carousal__header">
-            <img src={profile} className="profile" alt="" />
-            <h2>Member</h2>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam, quod.
-          </p>
-        </div>
-        <div className="carousal__card">
-          <div className="carousal__header">
-            <img src={profile} className="profile" alt="" />
-            <h2>Member</h2>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam, quod.
-          </p>
-        </div>
-        <div className="carousal__card">
-          <div className="carousal__header">
-            <img src={profile} className="profile" alt="" />
-            <h2>Member</h2>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam, quod.
-          </p>
-        </div>
-        <div className="carousal__card">
-          <div className="carousal__header">
-            <img src={profile} className="profile" alt="" />
-            <h2>Member</h2>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam, quod.
-          </p>
-        </div>
-        <div className="carousal__card">
-          <div className="carousal__header">
-            <img src={profile} className="profile" alt="" />
-            <h2>Member</h2>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam, quod.
-          </p>
-        </div>
+        {
+          fetchedData.length > 0 && fetchedData.map((member) => (
+            <MemberCard name={member.name} thoughts={member.thoughts} />
+          ))
+        }
       </Carousel>
     </>
   );
