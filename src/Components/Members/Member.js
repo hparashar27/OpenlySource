@@ -20,12 +20,15 @@ const Member = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    console.log(formData);
     submitData()
   }
   const submitData = async () => {
     try {
-      await axios.post('http://localhost:8000/api/members', formData)
+      const response = await axios.post('http://localhost:8000/api/members', formData)
+      if (response.statusText === 'OK') {
+        fetchData()
+      }
+      console.log(response)
       setStatus(true)
       setFormData({
         name: '',
@@ -49,7 +52,6 @@ const Member = () => {
       console.log(error.message)
     }
   }
-
 
   useEffect(() => {
     console.log('hello');
