@@ -143,6 +143,7 @@ const Member = () => {
           </form>
         </Modal>
       </div>
+      <h1 className="Members_Head">OpenlySource Members</h1>
       <Carousel className="carousal" responsive={responsive}>
         {
           fetchedData.length > 0 && fetchedData.map((member) => (

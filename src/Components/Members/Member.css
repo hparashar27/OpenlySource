@@ -14,7 +14,11 @@ form {
     flex-direction: column;
     padding: 4rem 0;
 }
-
+.Members_Head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 h1 {
     color: #ffffff;
     font-size: 3.25rem;
