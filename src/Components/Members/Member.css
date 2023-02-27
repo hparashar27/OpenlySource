@@ -19,7 +19,9 @@ h1 {
     color: #ffffff;
     font-size: 3.25rem;
 }
-
+h2{
+    margin-left:15%;
+}
 .box {
     display: flex;
     /* width: 45.125rem; */
@@ -34,7 +36,7 @@ h1 {
     width: 4.5rem;
 }
 
-.icon {
+.icon a{
     width: 15%;
 }
 .header {

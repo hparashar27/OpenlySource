@@ -1,17 +1,22 @@
 import React from 'react'
+import gitIcon from "../../assets/images/github.svg";
 import profile from "../../assets/images/profile.png";
+import "./Member.css";
 
-const MemberCard = ({ name, thoughts }) => {
+const MemberCard = ({ name, thoughts,_id , githubProfileLink }) => {
   return (
-    <div className="carousal__card">
-      <div className="carousal__header">
-        <img src={profile} className="profile" alt="" />
-        <h2>{name}</h2>
-      </div>
-      <p>
-        {thoughts}
-      </p>
+    <div className="carousal__card" key={_id}>
+        <div className="carousal__header">
+            <img src={profile} className="profile" alt="" />
+            <h2>{name}</h2>
+            <a href={githubProfileLink} target='_blank' rel='noreferrer' >
+  <img src={gitIcon} className="icon" alt="github"/>
+</a>
     </div>
+    <p>
+        {thoughts}
+    </p>
+</div>
   )
 }
 

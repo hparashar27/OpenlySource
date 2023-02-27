@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
-// import gitIcon from "../../assets/images/github.svg";
+import gitIcon from "../../assets/images/github.svg";
 import profile from "../../assets/images/profile.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -146,7 +146,7 @@ const Member = () => {
       <Carousel className="carousal" responsive={responsive}>
         {
           fetchedData.length > 0 && fetchedData.map((member) => (
-            <MemberCard name={member.name} thoughts={member.thoughts} />
+            <MemberCard name={member.name} thoughts={member.thoughts} githubProfileLink={member.githubProfileLink} _id={member._id} />
           ))
         }
       </Carousel>
