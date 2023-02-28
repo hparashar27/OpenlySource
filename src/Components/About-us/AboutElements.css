@@ -3,7 +3,7 @@
 .AboutContainer 
     {color: #fff;
         /* background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%); */
-        height:1800px;
+        height:2140px;
         background-image :url(../../assets/images/abstract-black-blue-lines-PhotoRoom\.jpg);
         background-repeat:no-repeat; 
         background-size:cover;
@@ -158,20 +158,23 @@ img
 /* height: 50vh; */
 }
 .card{
+    background-color: transparent;
     border-radius:2px ;
     text-align: center;
     box-shadow: 5px 5px 15px rgba(146, 129, 129, 0.9);
     cursor: pointer;
-    height: 210px;
+    height: 15rem;
 }
 .card-img-top{
     width:50%;
-    border-radius: 50px;
-    margin-top:20px;
-    
+    border-radius: 100%;
+    margin: 20px auto 0;
 }
 .card:hover {
     transform: scale(1.15);
     transition:all 0.5s ease-in-out;
     box-shadow: 5px 5px 15px rgba(122, 107, 107, 0.6);
-  }
+}
+.card-body {
+    padding: 10px;
+}
