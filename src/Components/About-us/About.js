@@ -86,31 +86,27 @@ const About = () => {
 <div className='socialsrow'>
  
   <div>
-    <a href="https://lnkd.in/dvVB7Cfk"target="_blank">
-  <Card  style={{ width: '13rem' }}>
- 
-      <Card.Img variant="top" src="https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png" />
-      <Card.Body>
-        <Card.Text>
-         Join the slack community and connect with like-minded people across the country.
-        </Card.Text>
-      </Card.Body>
-    </Card>
+    <a href="https://lnkd.in/dvVB7Cfk" target="_blank">
+      <Card  style={{ width: '13rem', background:"transparent", padding:"5px", height:"15rem" }}>
+        <Card.Img style={{ margin: "0 auto" }} variant="top" src="https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png" />
+          <Card.Body>
+            <Card.Text style={{ fontSize: "0.9rem", fontWeight: "400" }}>
+            Join the slack community and connect with like-minded people across the country.
+            </Card.Text>
+          </Card.Body>
+      </Card>
     </a>
     </div>
-  
   <div>
-    <a href="https://github.com/hparashar27/OpenlySource"target="_blank">
-  <Card style={{ width: '13rem' }}>
-      <Card.Img variant="top" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
-      <Card.Body>
-        
-        <Card.Text>
-         This is the github repo of OpenlySource made using javascript and reactjs.
-        </Card.Text>
-        
-      </Card.Body>
-    </Card>
+    <a href="https://github.com/hparashar27/OpenlySource" target="_blank">
+      <Card style={{ width: '13rem', background:"transparent", padding:"5px", height:"15rem" }}>
+        <Card.Img variant="top" style={{ margin: "0 auto" }} src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
+        <Card.Body>
+          <Card.Text style={{ fontSize: "0.9rem", fontWeight: "400" }}>
+          This is the github repo of OpenlySource made using javascript and reactjs.
+          </Card.Text>
+        </Card.Body>
+      </Card>
    </a>
   </div>
   
