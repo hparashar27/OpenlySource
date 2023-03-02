@@ -32,13 +32,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     align-items: center;
     color: white;
   }
   
-  .content h2{
+  .content p{
     color: #fff;
+    text-align: center;
     font-size: 4rem;
     font-weight: 600;
     font-family: poppins;
