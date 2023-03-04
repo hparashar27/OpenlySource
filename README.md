@@ -19,6 +19,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## How to Start 🚀
 
 Want to be a openlysource community member , take these steps :-
+
+
 1 fork this repo , copy the URL and run this command in vs code terminal
 
 ### `git clone URL `
