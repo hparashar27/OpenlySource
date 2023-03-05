@@ -33,6 +33,10 @@ const About = () => {
                   OpenlySource is a community of open-source enthusiasts , where you learn contributing to open source projects and collaborate with contributors from around the world. It is committed
                   towards providing resources and support to you and helps to build a strong and thriving open-source community! 🚀{" "}
                 </div>
+                <Link target='_blank' to="./Resources">
+                      <Button>Get Started
+                    </Button>
+                    </Link>
               </div>
             </div>
             <div className="Column1 ">
