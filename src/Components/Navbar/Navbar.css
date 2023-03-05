@@ -187,11 +187,24 @@ a {
   .gpt3__navbar {
     padding: 2rem 4rem;
   }
+
+  .Navbar {
+    padding: 2rem;
+    align-items: center;
+    margin-right:10rem;
+  }
+
 }
 
 @media screen and (max-width: 550px) {
   .Navbar {
     padding: 2rem;
+    align-items: center;
+    margin-right:4rem;
+  }
+
+  .logo_link .logo_des{
+    font-size: 1.5rem;
   }
 
   .gpt3__navbar-sign {
@@ -201,4 +214,5 @@ a {
   .list_container {
     top: 20px;
   }
+
 }
