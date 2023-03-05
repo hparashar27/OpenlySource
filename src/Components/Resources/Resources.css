@@ -1,0 +1,39 @@
+.Subtitle{
+    /* {max-width: max-content; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-bottom: 35px; */
+    font-size: 20px;
+    font-weight:50px;
+    line-height: 27px;
+    color: white; 
+    text-align:center;
+    flex:50%;
+    padding-bottom: 60px;
+}
+.heading{ margin-bottom: 24px;
+    font-size: 48px;
+    
+    line-height: 1.1;
+    font-weight: 600;
+    color:white;
+    text-align:center; 
+    @media screen and (max-width: 480px){
+        font-size: 32px;
+    }}
+    .container1{
+        height:2000px;
+    }
+    .Wrapper {
+        display: flex;
+    z-index: 1;
+    height: 150px;
+    width: 100%;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px;
+    justify-content: center;}
+    .ImgWrap 
+    {max-width: 555px;
+    height: 100%;
+/* align-items: center;} */}
