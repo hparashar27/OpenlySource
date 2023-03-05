@@ -11,7 +11,7 @@ import Login from './Components/Login/Login';
 import Signup from './Components/Signup/Signup';
 import About from './Components/About-us/About';
 import Member from './Components/Members/Member';
-
+import Resources from './Components/Resources/Resources';
 function App() {
     return (
         <Router>
@@ -33,6 +33,9 @@ function App() {
             </Switch>
             {/* <Route exact path="/Log-in" component={Login} />
             <Route exact path="/Sign-up" component={Signup} /> */}
+             <Route exact path="/Resources">
+  <Resources/>
+  </Route>
         </Router>
     );
 }

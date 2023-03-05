@@ -1,0 +1,84 @@
+.Subtitle{
+    /* {max-width: max-content; */
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* margin-bottom: 35px; */
+    font-size: 20px;
+    font-weight:0px;
+    /* line-height: 27px; */
+    color: white; 
+    text-align:center;
+    /* flex:50%; */
+    padding-bottom: 50px;
+}
+.heading{ margin-bottom: 0px;
+    font-size: 48px;
+    padding:1rem 0;
+    line-height: 1.1;
+    font-weight: 600;
+    color:white;
+    text-align:center; 
+    @media screen and (max-width: 480px){
+        font-size: 32px;
+    }}
+    /* .container1{
+        height:2000px;
+    } */
+   h2{
+    color:white;
+    margin-top: 50px;
+   }
+    .tutorials{
+        display:flex;
+        justify-content: space-between;
+    }
+    .Wrapper {
+        display: flex;
+    z-index: 1;
+    height: 150px;
+    width: 100%;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px;
+    justify-content: center;}
+    .ImgWrap 
+    {max-width: 555px;
+    height: 100%;
+/* align-items: center;} */}
+.doc{
+   
+    align-items: center;
+}
+.card.cheatsheet{
+    height:7rem;
+    cursor:pointer;
+    /* background-gradient:; */
+    /* box-radius: 2px solid red; */
+    box-shadow: 5px 5px 10px rgba(122, 107, 107, 0.6);
+    color:white;
+    width:80%;
+    margin:20px;
+    padding: 18px;
+    font-size:medium;
+
+}
+.cheatsheet.card:hover{
+    transform: none;
+    box-shadow: 5px 5px 10px rgba(146, 129, 129, 0.9);
+}
+/* .card{
+    cursor:default;
+} */
+.card-text{
+   color:white;
+   
+}
+/* .a:hover{
+    color:blue;
+} */
+/* .blogs{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+} */
