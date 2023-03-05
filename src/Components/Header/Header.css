@@ -45,6 +45,7 @@
     
   }
   .content h4{
+    text-align: center;
     color: #b1b1b1;
     font-size: 1.4rem;
 
@@ -54,7 +55,6 @@
     font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: poppins;
-
   }
 
   
@@ -94,4 +94,42 @@ margin-top: 3rem;
 
 .slack_des a:visited{
   color: #fff;
+}
+
+@media screen and (max-width: 600px){
+
+  .content p{
+    font-size: 2rem;
+  }
+
+  .content h4{
+    font-size: 0.8rem;
+    margin-left:1rem;
+  }
+  .content h3{
+    font-size: 1.3rem;
+  }
+  
+  .slack_des{
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (max-width:900px) and (min-width:600px){
+  .content p{
+    font-size: 2.8rem;
+  }
+
+  .content h4{
+    font-size: 1rem;
+    margin-left:1rem;
+  }
+  .content h3{
+    font-size: 1.5rem;
+  }
+  
+  .slack_des{
+    font-size: 1.5rem;
+  }
 }
