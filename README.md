@@ -40,7 +40,7 @@ Want to be a openlysource community member , take these steps :-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-https://user-images.githubusercontent.com/96375055/221347518-9074bd88-5277-45f2-a30c-835d55e61393.mp4
+https://user-images.githubusercontent.com/96375055/224332066-32b3177f-ca86-4577-a21e-d7749619b7a1.mp4
 
 ## To start the backend server:
 
