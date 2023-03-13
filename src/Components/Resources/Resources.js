@@ -9,25 +9,19 @@ return(
         <div className='heading'>
             <h1>Stuck in Open-Source?</h1>
         </div>
-        {/* <div className='Wrapper'> */}
-        {/* <div className="ImgWrap">
-                <div className="Img"> 
-                <img src={Opensource} alt="opensource-collaboration"/> 
-                </div> */}
+        
         <div className="Subtitle">A well-curated guide for all the beginners who wants to start their open-source journey.</div>
        
-        {/* <iframe width="560" height="318" src="https://www.youtube.com/embed/apGV9Kg7ics" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
     </div>
     <h2>Video Tutorials</h2>
     <div className="tutorials">
      
-        {/* <div className='row'>   */}
           <div className="ratio ratio-16x9">
   <iframe src="https://www.youtube.com/embed/apGV9Kg7ics" allowFullScreen></iframe>
 </div>
 <div className="ratio ratio-16x9">
   <iframe  src="https://www.youtube.com/embed/RGOj5yH7evk" title="YouTube video player" allowFullScreen></iframe>
-{/* </div> */}
+
 </div>
           
         </div>
