@@ -143,7 +143,19 @@ img
     justify-content: space-around;
     height:50vh;
     
+
 }
+
+@media screen and (max-width: 600px) {
+    .socialsrow {
+     flex-direction: column;
+     height: fit-content;
+     margin-top: 20px;
+     gap: 20px;
+    }
+}
+
+
 /* .socialscolumn{
     flex:50%;
     margin-bottom: 15px;
