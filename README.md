@@ -1,5 +1,9 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-![GitHub repo size](https://img.shields.io/github/repo-size/hparashar27/OpenlySource)
+<div align="center">
+<h1>OpenlySource</h1>
+<p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> 
+<img src="https://img.shields.io/github/repo-size/hparashar27/OpenlySource" alt="GitHub repo size"></p>
+</div>
+
 # Welcome to OpenlySource Community
 
 OpenlySource is a open source community , where you learn more about open source contribution to large codebases , interact with some of the best open source contributors 🚀
@@ -8,13 +12,11 @@ OpenlySource is a open source community , where you learn more about open source
 
 Before starting out, you'll need to install the following on your computer.
 
-[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download/)
+<a href="https://nodejs.org/en/download/"><img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&amp;logo=node.js&amp;logoColor=white" alt="NodeJS"></a>
+<a href="https://git-scm.com/downloads"><img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git"></a>
+<a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&amp;logo=npm&amp;logoColor=white" alt="NPM"></a>
 
-[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/downloads)
-
-[![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+>To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## How to Start 🚀
 
