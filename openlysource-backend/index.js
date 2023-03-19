@@ -10,6 +10,7 @@ require("dotenv").config();
 const opportunitiesRoutes = require("./routes/Opportunities");
 const { handleErrors } = require("./utils/errorHandling.utils");
 const connectDB = require("./config/db.config");
+const PORT = process.env.PORT || 8000
 
 var whitelistedDomains = ["http://localhost:3000"];
 
@@ -28,7 +29,7 @@ const corsOptions = {
 };
 
 // Start servers
-httpServer.listen(8000, () => {
+httpServer.listen(PORT, () => {
   logger.info("Server started at port " + 8000);
   connectDB();
 });
