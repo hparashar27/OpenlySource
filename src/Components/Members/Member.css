@@ -111,6 +111,9 @@ h2{
         width: calc(100% - 40px);
         padding: 1.25rem;
     }
+    .Members_Head{
+        text-align: center;
+    }
     .header__btn {
         width: 100%;
         margin-top: 1.25rem;
