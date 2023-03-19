@@ -11,10 +11,11 @@ body {
 .Opp_heading {
     padding-top: 1em;
     display: flex;
+    text-align: center;
     flex-direction: row;
     justify-content:space-evenly;
     align-items: center;
-    font-size: 3.5rem;
+    font-size: 2.7rem;
     font-weight: 500;
 }
 
@@ -147,4 +148,65 @@ color: black;
     border-radius: 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     font-family: JetBrains Mono, monospace;
+}
+
+@media only screen and (max-width: 840px) {
+/* Change the layout of the cards to a single column */
+.Opp_card {
+display: flex;
+flex-direction: column;
+height: auto;
+margin-bottom: 5%;
+}
+.card_right_description {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 3%;
+    }
+.Opp_heading {
+    text-align: center;
+font-size: 2.2rem;
+}
+.card_left {
+justify-content: center;
+margin: 2%;
+}
+.card_right {
+justify-content: center;
+}
+.card_right_heading {
+font-size: 1.8rem;
+}
+.visit_button {
+font-size: 0.8rem;
+}
+.card_right_button{
+    margin-bottom: 4%;
+}
+}
+
+@media only screen and (max-width: 576px) {
+/* Adjust the font size of the heading and description */
+.Opp_heading {
+    text-align: center;
+font-size: 1.6rem;
+}
+
+.card_right_heading {
+font-size: 1.4rem;
+}
+}
+
+@media only screen and (max-width: 375px) {
+/* Adjust the font size of the heading and description further */
+.Opp_heading {
+    text-align: center;
+font-size: 1rem;
+}
+.card_right_heading {
+font-size: 1.2rem;
+}
+.card_right_description {
+font-size: 0.8rem;
+}
 }
