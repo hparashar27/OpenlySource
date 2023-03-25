@@ -26,10 +26,11 @@
         height:2000px;
     } */
 h2 {
-  color: rgb(64, 64, 64);
+  color: rgb(255, 251, 251);
   width: fit-content;
   margin: auto;
-  margin-top: 50px;
+  margin-left: 10px;
+  /* margin-top: 50px; */
 }
 .tutorials {
   display: flex;

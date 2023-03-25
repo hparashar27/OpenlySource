@@ -6,7 +6,10 @@ form {
     flex-direction: column;
     margin: 0 auto;
 }
-
+h5{
+    font-size: 1.25rem;
+    margin-left: 10%;
+}
 .heading {
     display: flex;
     justify-content: center;

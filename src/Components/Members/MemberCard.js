@@ -8,7 +8,7 @@ const MemberCard = ({ name, thoughts,_id , githubProfileLink }) => {
     <div className="carousal__card" key={_id}>
         <div className="carousal__header">
             <img src={profile} className="profile" alt="" />
-            <h2>{name}</h2>
+            <h5>{name}</h5>
             <a href={githubProfileLink} target='_blank' rel='noreferrer' >
   <img src={gitIcon} className="icon" alt="github"/>
 </a>
