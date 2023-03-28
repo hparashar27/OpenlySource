@@ -5,7 +5,7 @@ mongoose.set("strictQuery", false);
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb://127.0.0.1:27017/openlysource", {
+    await mongoose.connect("mongodb+srv://hparashar27:V1zlI5sJbNXurb4D@cluster0.phoxcof.mongodb.net/test?retryWrites=true&w=majority", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
