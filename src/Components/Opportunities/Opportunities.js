@@ -30,7 +30,7 @@ fecthData();
         {/* for Google summer of code */}
         {Events && Events.map && Events.map((Event,_id) => <div key={_id} className="Opp_card">
           <div className="card_left ">
-            <img src={Event.logo} className="event_logo" />
+            <img src={Event.logo} className="event_logo" alt="event logo"/>
           </div>
           <div className="card_right">
             <span className="card_right_heading">{Event.eventName}</span>
