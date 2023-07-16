@@ -42,6 +42,7 @@ const Member = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get('http://localhost:8000/api/members')
+      console.log(response);
       setFetchedData(response.data.data)
       setStatus(true)
     } catch (error) {

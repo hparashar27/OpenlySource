@@ -10,10 +10,10 @@ const Opportunities = () => {
   const [Events , setEvents ] = useState([]);
   useEffect(() => {
   const fecthData = async () => {
-    await axios.get("http://localhost:8000/api/opportunities/events")
+    await axios.get("http://localhost:8000/api/events")
         .then(res => {
             setEvents(res.data.data);
-            console.log(Events);
+            // console.log(Events);
         });
 };
 fecthData();
