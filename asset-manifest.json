@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OpenlySource/static/css/main.54daa2e9.css",
-    "main.js": "/OpenlySource/static/js/main.ca20e131.js",
+    "main.css": "/OpenlySource/static/css/main.2d1118ec.css",
+    "main.js": "/OpenlySource/static/js/main.c8869ab4.js",
     "static/media/Header_video_.mp4": "/OpenlySource/static/media/Header_video_.50357bcbbd4621f1f7fa.mp4",
     "static/media/earthimg.png": "/OpenlySource/static/media/earthimg.db33f7a4d32ce6655ef0.png",
     "static/media/Open source-cuate.png": "/OpenlySource/static/media/Open source-cuate.a87649ad38860d4e387c.png",
@@ -14,11 +14,11 @@
     "static/media/avatar.svg": "/OpenlySource/static/media/avatar.cfb9ce7c6ac0aee835259b278180b6f1.svg",
     "static/media/github.svg": "/OpenlySource/static/media/github.52038f708085aaed24b27fd472bd3725.svg",
     "index.html": "/OpenlySource/index.html",
-    "main.54daa2e9.css.map": "/OpenlySource/static/css/main.54daa2e9.css.map",
-    "main.ca20e131.js.map": "/OpenlySource/static/js/main.ca20e131.js.map"
+    "main.2d1118ec.css.map": "/OpenlySource/static/css/main.2d1118ec.css.map",
+    "main.c8869ab4.js.map": "/OpenlySource/static/js/main.c8869ab4.js.map"
   },
   "entrypoints": [
-    "static/css/main.54daa2e9.css",
-    "static/js/main.ca20e131.js"
+    "static/css/main.2d1118ec.css",
+    "static/js/main.c8869ab4.js"
   ]
 }
