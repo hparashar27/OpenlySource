@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/OpenlySource/static/css/main.54daa2e9.css",
+    "main.js": "/OpenlySource/static/js/main.ca20e131.js",
+    "static/media/Header_video_.mp4": "/OpenlySource/static/media/Header_video_.50357bcbbd4621f1f7fa.mp4",
+    "static/media/earthimg.png": "/OpenlySource/static/media/earthimg.db33f7a4d32ce6655ef0.png",
+    "static/media/Open source-cuate.png": "/OpenlySource/static/media/Open source-cuate.a87649ad38860d4e387c.png",
+    "static/media/Creative team-pana.png": "/OpenlySource/static/media/Creative team-pana.a31db0a4d9427bdaa024.png",
+    "static/media/Official_openlySource_logo.png": "/OpenlySource/static/media/Official_openlySource_logo.93a47bb8bbcaabbeef0e.png",
+    "static/media/revicons.eot": "/OpenlySource/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/OpenlySource/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/OpenlySource/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/Slack-logo-RGB.svg": "/OpenlySource/static/media/Slack-logo-RGB.abba13326dd643cacfb58224e70653fb.svg",
+    "static/media/avatar.svg": "/OpenlySource/static/media/avatar.cfb9ce7c6ac0aee835259b278180b6f1.svg",
+    "static/media/github.svg": "/OpenlySource/static/media/github.52038f708085aaed24b27fd472bd3725.svg",
+    "index.html": "/OpenlySource/index.html",
+    "main.54daa2e9.css.map": "/OpenlySource/static/css/main.54daa2e9.css.map",
+    "main.ca20e131.js.map": "/OpenlySource/static/js/main.ca20e131.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54daa2e9.css",
+    "static/js/main.ca20e131.js"
+  ]
+}
