@@ -7,6 +7,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Member.css";
 import MemberCard from "./MemberCard.js";
+import members from "../../data/memberApi";
 const Member = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -147,7 +148,7 @@ const Member = () => {
       <h1 className="Members_Head">OpenlySource Members</h1>
       <Carousel className="carousal" responsive={responsive}>
         {
-          fetchedData.length > 0 && fetchedData.map((member) => (
+          members.length > 0 && members.map((member) => (
             <MemberCard name={member.name} thoughts={member.thoughts} githubProfileLink={member.githubProfileLink} _id={member._id} />
           ))
         }

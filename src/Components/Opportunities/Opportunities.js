@@ -4,6 +4,7 @@ import {ImSun} from "react-icons/im"
 import {TbLink} from "react-icons/tb"
 import axios from "axios"
 import "./Opportunities.css";
+import events from "../../data/eventsApi"
 
 const Opportunities = () => {
   const [DarkTheme,setDarkTheme] = useState(false);
@@ -28,7 +29,7 @@ fecthData();
        </div>
       <div className="Opp_cards_list">
         {/* for Google summer of code */}
-        {Events && Events.map && Events.map((Event,_id) => <div key={_id} className="Opp_card">
+        {events && events.map && events.map((Event,_id) => <div key={_id} className="Opp_card">
           <div className="card_left ">
             <img src={Event.logo} className="event_logo" alt="event logo"/>
           </div>
