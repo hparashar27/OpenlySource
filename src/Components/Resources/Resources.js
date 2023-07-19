@@ -17,10 +17,10 @@ return(
     <div className="tutorials">
      
           <div className="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/apGV9Kg7ics" allowFullScreen></iframe>
+  <iframe src="https://www.youtube.com/embed/apGV9Kg7ics" rel="noreferrer" allowFullScreen></iframe>
 </div>
 <div className="ratio ratio-16x9">
-  <iframe  src="https://www.youtube.com/embed/RGOj5yH7evk" title="YouTube video player" allowFullScreen></iframe>
+  <iframe  src="https://www.youtube.com/embed/RGOj5yH7evk" rel="noreferrer" title="YouTube video player" allowFullScreen></iframe>
 
 </div>
           
@@ -29,7 +29,7 @@ return(
         <div className='doc'>
         <h2>Git CheatSheets</h2>
 
-            <a href="https://about.gitlab.com/images/press/git-cheat-sheet.pdf" target="_blank">
+            <a href="https://about.gitlab.com/images/press/git-cheat-sheet.pdf" rel="noreferrer" target="_blank">
               <Card className='cheatsheet'>
                 
                 <Card.Body>
@@ -38,7 +38,7 @@ return(
               </Card>
             </a>
           {/* </div> */}
-          <a href="https://about.gitlab.com/images/press/git-cheat-sheet.pdf" target="_blank">
+          <a href="https://about.gitlab.com/images/press/git-cheat-sheet.pdf" rel="noreferrer" target="_blank">
               <Card className='cheatsheet'>
                 
                 <Card.Body>
@@ -53,18 +53,18 @@ return(
               <div>
             
               <Card style={{ width: "18rem" }}>
-                <Card.Img  src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*ve-E-lXoo8D7uDYok4VYAA.png" />
+                <Card.Img rel="noreferrer" src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*ve-E-lXoo8D7uDYok4VYAA.png" />
                 <Card.Body>
                
-               <a href="https://medium.com/@abhishekj/an-intro-to-git-and-github-1a0e2c7e3a2f" target="_blank"><Card.Text>An Intro to Git and GitHub</Card.Text></a>
+               <a  rel="noreferrer" href="https://medium.com/@abhishekj/an-intro-to-git-and-github-1a0e2c7e3a2f" target="_blank"><Card.Text>An Intro to Git and GitHub</Card.Text></a>
                 </Card.Body>
               </Card>
             
           </div>
           <div>
-            <a href="https://opensource.guide/how-to-contribute/" target="_blank">
+            <a rel="noreferrer" href="https://opensource.guide/how-to-contribute/" target="_blank">
               <Card style={{ width: "18rem" }}>
-                <Card.Img  src="https://opensource.guide/assets/images/illos/contribute.svg" />
+                <Card.Img rel="noreferrer" src="https://opensource.guide/assets/images/illos/contribute.svg" />
                 <Card.Body>
                   <Card.Text>Get Started with Open-Source</Card.Text>
                 </Card.Body>
@@ -72,9 +72,9 @@ return(
             </a>
           </div>
           <div>
-            <a href="https://blog.greenroots.info/8-resources-to-start-with-opensource-immediately" target="_blank">
+            <a  rel="noreferrer" href="https://blog.greenroots.info/8-resources-to-start-with-opensource-immediately" target="_blank">
               <Card style={{ width: "18rem" }}>
-                <Card.Img  src="https://cdn.hashnode.com/res/hashnode/image/upload/v1631381266463/w-HYGhPkh.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"/>
+                <Card.Img  rel="noreferrer" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1631381266463/w-HYGhPkh.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"/>
                 <Card.Body>
                   <Card.Text>Resources to start with opensource</Card.Text>
                 </Card.Body>
@@ -82,9 +82,9 @@ return(
             </a>
           </div>
           <div>
-            <a href="https://blog.openreplay.com/getting-started-with-open-source-how-to-contribute/" target="_blank">
+            <a  rel="noreferrer" href="https://blog.openreplay.com/getting-started-with-open-source-how-to-contribute/" target="_blank">
               <Card style={{ width: "18rem" }}>
-                <Card.Img  src="https://blog.openreplay.com/images/getting-started-with-open-source-how-to-contribute/images/hero.png" />
+                <Card.Img  rel="noreferrer" src="https://blog.openreplay.com/images/getting-started-with-open-source-how-to-contribute/images/hero.png" />
                 <Card.Body>
                   <Card.Text>Getting Started With Open-Source</Card.Text>
                 </Card.Body>
@@ -94,9 +94,9 @@ return(
           </div>
           <div className="socialsrow">
               <div>
-            <a href="https://opensource.com/article/19/7/create-pull-request-github" target="_blank">
+            <a rel="noreferrer" href="https://opensource.com/article/19/7/create-pull-request-github" target="_blank">
               <Card style={{ width: "17rem" }}>
-                <Card.Img  src="https://opensource.com/sites/default/files/lead-images/checklist_hands_team_collaboration.png" />
+                <Card.Img  rel="noreferrer" src="https://opensource.com/sites/default/files/lead-images/checklist_hands_team_collaboration.png" />
                 <Card.Body>
                   <Card.Text>Creating Pull Requests in Github</Card.Text>
                 </Card.Body>
@@ -104,9 +104,9 @@ return(
             </a>
           </div>
           <div>
-            <a href="https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects/" target="_blank">
+            <a rel="noreferrer" href="https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects/" target="_blank">
               <Card style={{ width: "18rem" }}>
-                <Card.Img  src="https://www.freecodecamp.org/news/content/images/size/w2000/2022/04/open-source-contributions.jpeg" />
+                <Card.Img  rel="noreferrer" src="https://www.freecodecamp.org/news/content/images/size/w2000/2022/04/open-source-contributions.jpeg" />
                 <Card.Body>
                   <Card.Text>Contributing to open-source projects</Card.Text>
                 </Card.Body>
@@ -114,9 +114,9 @@ return(
             </a>
           </div>
           <div>
-            <a href="https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6" target="_blank">
+            <a rel="noreferrer" href="https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6" target="_blank">
               <Card style={{ width: "18rem" }}>
-                <Card.Img  src="https://github.blog/wp-content/uploads/2022/09/Open-Source-Engineering@2x.png?resize=1600%2C850"/>
+                <Card.Img  rel="noreferrer" src="https://github.blog/wp-content/uploads/2022/09/Open-Source-Engineering@2x.png?resize=1600%2C850"/>
                 <Card.Body>
                   <Card.Text>The Complete Beginner's Guide</Card.Text>
                 </Card.Body>
@@ -124,9 +124,9 @@ return(
             </a>
           </div>
           <div>
-            <a href="https://blog.devgenius.io/a-journey-to-contribute-in-open-source-f3c1e4848c6b" target="_blank">
+            <a rel="noreferrer" href="https://blog.devgenius.io/a-journey-to-contribute-in-open-source-f3c1e4848c6b" target="_blank">
               <Card style={{ width: "18rem" }}>
-                <Card.Img  src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*sD1inpOFn4i1WDN5Imybqw.png" />
+                <Card.Img rel="noreferrer" src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*sD1inpOFn4i1WDN5Imybqw.png" />
                 <Card.Body>
                   <Card.Text>A Journey to Contribute in Open Source</Card.Text>
                 </Card.Body>
@@ -140,9 +140,9 @@ return(
           <h2>Learn Git Interactively</h2>
           <div className='socialsrow'>
           <div>
-            <a href="https://learngitbranching.js.org/" target="_blank">
+            <a rel="noreferrer" href="https://learngitbranching.js.org/" target="_blank">
               <Card style={{ width: "18rem" }}>
-                <Card.Img  src="https://pcottle.github.io/learnGitBranching/assets/learnGitBranching.png" />
+                <Card.Img rel="noreferrer" src="https://pcottle.github.io/learnGitBranching/assets/learnGitBranching.png" />
                 <Card.Body>
                   <Card.Text>Learn Git Branching</Card.Text>
                 </Card.Body>
@@ -150,9 +150,9 @@ return(
             </a>
           </div>
           <div>
-            <a href="https://gitimmersion.com/lab_01.html" target="_blank">
+            <a rel="noreferrer" href="https://gitimmersion.com/lab_01.html" target="_blank">
               <Card style={{ width: "18rem" }}>
-                <Card.Img  src="https://i.stack.imgur.com/BUVVa.png" />
+                <Card.Img rel="noreferrer" src="https://i.stack.imgur.com/BUVVa.png" />
                 <Card.Body>
                   <Card.Text>Learn Git Immersion</Card.Text>
                 </Card.Body>

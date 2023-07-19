@@ -39,8 +39,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="navbar-menu">
+          <div className="navbar-menu">
           {toggleMenu ? (
             <RiCloseLine
               classname="menu_icon"
@@ -80,6 +79,7 @@ const Navbar = () => {
               </ul>
             </div>
           )}
+        </div>
         </div>
       </div>
     </>
