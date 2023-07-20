@@ -44,30 +44,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 https://user-images.githubusercontent.com/96375055/224332066-32b3177f-ca86-4577-a21e-d7749619b7a1.mp4
 
-## To start the backend server:
-
-1 Make sure to have mongodb set up on your system
-
-2 Change directory to openlysource-backend directory run command:
-
-### `cd openlysource-backend`
-
-3 To install all dependencies run command :
-
-### `npm install`
-
-3 To install Mongoose seed data package globally run command:
-
-### `npm install -g mongoose-data-seed `
-
-4 Run command to seed data:
-
-### `md-seed run`
-
-5 To start the development server:
-
-### `npm run dev`
-
 ## On What stack will OpenlySource built on?
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
