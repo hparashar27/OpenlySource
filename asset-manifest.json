@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OpenlySource/static/css/main.16cda850.css",
-    "main.js": "/OpenlySource/static/js/main.9527e758.js",
+    "main.css": "/OpenlySource/static/css/main.2a4f5469.css",
+    "main.js": "/OpenlySource/static/js/main.b84f09ac.js",
     "static/media/Header_video_.mp4": "/OpenlySource/static/media/Header_video_.50357bcbbd4621f1f7fa.mp4",
     "static/media/earthimg.png": "/OpenlySource/static/media/earthimg.db33f7a4d32ce6655ef0.png",
     "static/media/Open source-cuate.png": "/OpenlySource/static/media/Open source-cuate.a87649ad38860d4e387c.png",
@@ -14,11 +14,11 @@
     "static/media/avatar.svg": "/OpenlySource/static/media/avatar.cfb9ce7c6ac0aee835259b278180b6f1.svg",
     "static/media/github.svg": "/OpenlySource/static/media/github.52038f708085aaed24b27fd472bd3725.svg",
     "index.html": "/OpenlySource/index.html",
-    "main.16cda850.css.map": "/OpenlySource/static/css/main.16cda850.css.map",
-    "main.9527e758.js.map": "/OpenlySource/static/js/main.9527e758.js.map"
+    "main.2a4f5469.css.map": "/OpenlySource/static/css/main.2a4f5469.css.map",
+    "main.b84f09ac.js.map": "/OpenlySource/static/js/main.b84f09ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.16cda850.css",
-    "static/js/main.9527e758.js"
+    "static/css/main.2a4f5469.css",
+    "static/js/main.b84f09ac.js"
   ]
 }
