@@ -7,7 +7,7 @@ import "./Opportunities.css";
 import events from "../../data/eventsApi"
 
 const Opportunities = () => {
-  const [DarkTheme,setDarkTheme] = useState(false);
+  const [DarkTheme,setDarkTheme] = useState(true);
   const [Events , setEvents ] = useState([]);
   useEffect(() => {
   const fecthData = async () => {

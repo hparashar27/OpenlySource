@@ -13,7 +13,7 @@ return(
         <div className="Subtitle">A well-curated guide for all the beginners who wants to start their open-source journey.</div>
        
     </div>
-    <h2>Video Tutorials</h2>
+    <div className='sub_headings'>Video Tutorials</div>
     <div className="tutorials">
      
           <div className="ratio ratio-16x9">
@@ -27,7 +27,7 @@ return(
         </div>
 
         <div className='doc'>
-        <h2>Git CheatSheets</h2>
+        <div className='sub_headings' >Git CheatSheets</div>
 
             <a href="https://about.gitlab.com/images/press/git-cheat-sheet.pdf" rel="noreferrer" target="_blank">
               <Card className='cheatsheet'>
@@ -48,7 +48,7 @@ return(
             </a>
 
             <div className='blogs'>
-              <h2>Blogs/Documentation</h2>
+            <div className='sub_headings'>Blogs/Documentation</div>
               <div className="socialsrow">
               <div>
             
@@ -137,7 +137,7 @@ return(
             </div>
         </div>
         <div className='sec'>
-          <h2>Learn Git Interactively</h2>
+        <div className='sub_headings'>Learn Git Interactively</div>
           <div className='socialsrow'>
           <div>
             <a rel="noreferrer" href="https://learngitbranching.js.org/" target="_blank">
