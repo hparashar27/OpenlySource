@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Resources.css"
 import Card from "react-bootstrap/Card";
+
 const Resources=()=>{
 return(
     <>

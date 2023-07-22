@@ -24,7 +24,7 @@ const About = () => {
                 strong and thriving open-source community! 🚀
               </p>
             </div>
-            <Link target="_blank" to= "/Resources">
+            <Link to= "/Resources">
               <Button>Get Started</Button>
             </Link>
           </div>
