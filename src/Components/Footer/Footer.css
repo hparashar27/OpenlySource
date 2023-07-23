@@ -70,6 +70,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   font-size: 0.8rem;
+  margin-top: 25px;
   margin-right: 10px;
   align-items: flex-end;
   gap: 10px;
