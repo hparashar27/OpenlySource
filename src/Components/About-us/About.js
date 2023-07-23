@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import Footer from "../Footer/Footer";
 import Opensource from "../../assets/Open source-cuate.png";
 import colab from "../../assets/Creative team-pana.png";
 import Card from "react-bootstrap/Card";
@@ -110,6 +111,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

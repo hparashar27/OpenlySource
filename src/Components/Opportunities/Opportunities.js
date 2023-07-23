@@ -51,7 +51,9 @@ fecthData();
         </div>)}
         </div>
       </div>
+      
     </div>
+
     // </div>
   );
 };

@@ -6,6 +6,7 @@ import profile from "../../assets/images/profile.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Member.css";
+import Footer from "../Footer/Footer";
 import MemberCard from "./MemberCard.js";
 import members from "../../data/memberApi";
 
@@ -146,7 +147,7 @@ const Member = () => {
           </form>
         </Modal>
       </div>
-      <h1 className="Members_Head">OpenlySource Members</h1>
+      <p className="Members_Head">OpenlySource Members</p>
       <Carousel className="carousal" responsive={responsive}>
         {
           members.length > 0 && members.map((member) => (
@@ -154,6 +155,7 @@ const Member = () => {
           ))
         }
       </Carousel>
+      <Footer/>
     </>
   );
 };
