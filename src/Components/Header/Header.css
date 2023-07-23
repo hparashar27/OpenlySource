@@ -42,13 +42,13 @@
     font-size: 4rem;
     font-weight: 600;
     font-family: poppins;
-    
+    margin-bottom: 40px;
   }
   .content h4{
     text-align: center;
     color: #b1b1b1;
     font-size: 1.4rem;
-
+    margin-bottom: 30px;
   }
   .content h3{
     color: aqua;
