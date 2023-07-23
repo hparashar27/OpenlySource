@@ -26,9 +26,15 @@
   align-items: center;
 }
 
+.footer-logo p{
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  /* margin-left: 100px; */
+}
+
 .footer-logo span {
   display: block;
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: bolder;
   color: var(--color-text);
 }
@@ -36,17 +42,21 @@
 .info img {
   display: block;
   width: 30%;
-  height: 70%;
+  height: 100%;
 }
 
 .info p {
   font-weight: bolder;
   font-style: italic;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  margin-left: 30px;
 }
 
 .social-links {
   display: flex;
   justify-content: center;
+  margin: 10px 0px 10px 0px;
   align-items: center;
 }
 
@@ -59,6 +69,8 @@
   /* width: 50%; */
   flex-direction: column;
   flex-wrap: wrap;
+  font-size: 0.8rem;
+  margin-right: 10px;
   align-items: flex-end;
   gap: 10px;
 }
