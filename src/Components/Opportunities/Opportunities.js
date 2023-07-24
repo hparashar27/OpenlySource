@@ -7,7 +7,7 @@ import "./Opportunities.css";
 import events from "../../data/eventsApi"
 
 const Opportunities = () => {
-  const [DarkTheme,setDarkTheme] = useState(true);
+  const [DarkTheme,setDarkTheme] = useState(false);
   const [Events , setEvents ] = useState([]);
   useEffect(() => {
   const fecthData = async () => {
@@ -34,7 +34,7 @@ fecthData();
             <img src={Event.logo} className="event_logo" alt="event logo"/>
           </div>
           <div className="card_right">
-            <span className="card_right_heading">{Event.eventName}</span>
+            <div className="card_right_heading">{Event.eventName}</div>
             <span className="card_right_description">
               {" "}
           {Event.description}
@@ -45,7 +45,7 @@ fecthData();
                 href={Event.websiteUrl}
                 target='_blank'
               ><TbLink/>Visit</a></button>
-              <span className="month_name">{Event.months}</span>
+              <div className="month_name">{Event.months}</div>
             </div>
           </div>
         </div>)}

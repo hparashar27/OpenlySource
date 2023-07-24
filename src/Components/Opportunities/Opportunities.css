@@ -75,11 +75,12 @@ body {
 }
 
 .Opportunities_DarkTheme{
-    color: black;
+    /* color: #fff; */
    background-color:rgb(4, 30, 58);
-
     }
-    
+    .Opportunities_DarkTheme span{
+    color: #fff;
+    }  
 .Opportunities_LightTheme{
 color: black;
  background-color:#fff ;
@@ -88,9 +89,10 @@ color: black;
 .Opp_heading_icon{
     display: flex;
     flex-direction: row;
+    border: 1px solid #fff;
     justify-content:center;
     background-color:#fff;
-
+    border-radius: 14px;
 }
 
 .Opp_heading_icon button{

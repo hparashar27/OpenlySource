@@ -15,7 +15,7 @@ const Header = () => {
           <h3>Connect, Learn, and Contribute</h3>
           <div className='slack_sec'>
             <img src={slack_logo} className="slack_logo" />
-            <div className='slack_des'><a rel='noreferrer' href='https://lnkd.in/dvVB7Cfk' target='_blank' >join us now</a></div>
+            <div className='slack_des'><a rel='noreferrer' href='https://join.slack.com/t/openlysource/shared_invite/zt-2023ucxfk-Ydr7vVQ8o8tKb_sRTu5GSg' target='_blank' >join us now</a></div>
           </div>
         </div>
       </div>
