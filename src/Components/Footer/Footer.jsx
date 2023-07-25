@@ -19,7 +19,7 @@ const Footer = () => {
           </p>
         </div>
         <div className='nav-links'>
-          <Link to='/about'>About Us</Link>
+          <Link to='/Aboutus'>About Us</Link>
           <Link to='/Members'>Our Members</Link>
           <Link to='/Opportunities'>Opportunities</Link>
           <Link to='/Log-in'>Log In </Link>
