@@ -34,7 +34,7 @@ body {
 .Opp_card {
     display: grid;
     grid-template-columns: 0.3fr 0.7fr;
-    height: 15rem;
+    min-height: 15rem;
     border: solid rgb(227, 222, 222) 1px;
     border-radius: 2px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -72,6 +72,8 @@ body {
     flex-direction: row;
     width: 90%;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .Opportunities_DarkTheme{
